@@ -14,6 +14,12 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+	    if (!app()->runningInConsole()){
+		    if (!defined("BASE_URL")){
+			    define("BASE_URL" , url('/'));
+		    }
+	    }
+
     }
 
     /**
