@@ -94,7 +94,7 @@
                         <div class="text-box">
                             <h1 class="maroon-text">Lete Vansa</h1>
                             <p>This will be on the ground floor, next to hotel reception. Lete is essentially, a name of place, which is the gateway to Mustang. This will be a contemporary mustang themed dining area with indoor and outdoor seating areas. This will give our guests an opportunity to know about geographical and cultural diversity of our country. </p>
-                            <a href="lete-vansa.php" class="btn btn-default">Read More</a>
+                            <a href="{{ route('letevansa') }}" class="btn btn-default">Read More</a>
                         </div>
                     </div>
 

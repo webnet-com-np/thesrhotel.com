@@ -47,6 +47,18 @@ Route::get('/room-suite/', function () {
 	return view('room-suite');
 })->name('roomsuite');
 
+Route::get('/room-deluxe/', function () {
+	return view('room-deluxe');
+})->name('roomdeluxe');
+
+Route::get('/room-standard/', function () {
+	return view('room-standard');
+})->name('roomstandard');
+
+Route::get('/room-honeymoon-suite/', function () {
+	return view('room-honeymoon');
+})->name('roomhoneymoon');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

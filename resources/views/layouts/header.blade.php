@@ -18,9 +18,9 @@
                                 <a href="#" class="dropdown-toggle disable" data-hover="dropdown">rooms</a>
                                 <ul class="dropdown-menu">
                                     <li><a href="{{route('roomsuite')}}">suite rooms</a></li>
-                                    <li><a href="./room-deluxe.php">deluxe rooms</a></li>
-                                    <li><a href="./room-standard.php">standard rooms</a></li>
-                                    <li><a href="./room-honeymoon-suite.php">Honeymoon Suite rooms</a></li>
+                                    <li><a href="{{ route('roomdeluxe') }}">deluxe rooms</a></li>
+                                    <li><a href="{{ route('roomstandard') }}">standard rooms</a></li>
+                                    <li><a href="{{ route('roomhoneymoon') }}">Honeymoon Suite rooms</a></li>
 
                                 </ul>
                             </li>
