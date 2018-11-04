@@ -13,29 +13,29 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-left">
                             <li><a href="{{ route('index') }}">HOME</a></li>
-                            <li><a href="./aboutus.php">ABOUT US</a></li>
+                            <li><a href="{{ route('about') }}">ABOUT US</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle disable" data-hover="dropdown">rooms</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="./room-suite.php">suite rooms</a></li>
+                                    <li><a href="{{route('roomsuite')}}">suite rooms</a></li>
                                     <li><a href="./room-deluxe.php">deluxe rooms</a></li>
                                     <li><a href="./room-standard.php">standard rooms</a></li>
                                     <li><a href="./room-honeymoon-suite.php">Honeymoon Suite rooms</a></li>
 
                                 </ul>
                             </li>
-                            <li><a href="conference-room.php">conference room</a></li>
+                            <li><a href="{{route('conference')}}">conference room</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
-                                <a href="./restaurants/" class="dropdown-toggle disable" data-hover="dropdown">Restaurants</a>
+                                <a href="{{route('restaurants')}}" class="dropdown-toggle disable" data-hover="dropdown">Restaurants</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="./one-square-lounge.php">one square lounge</a></li>
-                                    <li><a href="lete-vansa.php">lete vansa</a></li>
+                                    <li><a href="{{route('onesquarelounge')}}">one square lounge</a></li>
+                                    <li><a href="{{ route('letevansa') }}">lete vansa</a></li>
 
                                 </ul>
                             </li>
-                            <li><a href="./next-inline.php">next inline</a></li>
+                            <li><a href="{{ route('nextline') }}">next inline</a></li>
                             <li><a href="{{ route('contact') }}">contact</a></li>
                         </ul>
                     </div>
