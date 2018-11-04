@@ -6,7 +6,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'The SR Hotel ,luxury Hotel in Butwal- Bhairahawa, Nepal') }}</title>
+    <title>{{  'The SR Hotel ,luxury Hotel in Butwal- Bhairahawa, Nepal' }}</title>
 
     <!-- Scripts -->
 {{--    <script src="{{ asset('js/app.js') }}" defer></script>--}}
