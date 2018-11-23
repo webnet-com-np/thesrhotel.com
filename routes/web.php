@@ -35,11 +35,11 @@ Route::get('/restaurants/', function () {
 	return view('restaurants');
 })->name('restaurants');
 
-Route::get('/one-square-lounge/', function () {
+Route::get('restaurants/one-square-lounge/', function () {
 	return view('one-square-lounge');
 })->name('onesquarelounge');
 
-Route::get('/lete-vansa/', function () {
+Route::get('restaurants/lete-vansa/', function () {
 	return view('lete-vansa');
 })->name('letevansa');
 
@@ -47,15 +47,15 @@ Route::get('rooms/suite-room/', function () {
 	return view('room-suite');
 })->name('roomsuite');
 
-Route::get('/room-deluxe/', function () {
+Route::get('rooms/deluxe-room/', function () {
 	return view('room-deluxe');
 })->name('roomdeluxe');
 
-Route::get('/room-standard/', function () {
+Route::get('rooms/standard-room/', function () {
 	return view('room-standard');
 })->name('roomstandard');
 
-Route::get('/room-honeymoon-suite/', function () {
+Route::get('rooms/honeymoon-suite-room/', function () {
 	return view('room-honeymoon');
 })->name('roomhoneymoon');
 
