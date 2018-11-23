@@ -43,7 +43,7 @@ Route::get('/lete-vansa/', function () {
 	return view('lete-vansa');
 })->name('letevansa');
 
-Route::get('/room-suite/', function () {
+Route::get('rooms/suite-room/', function () {
 	return view('room-suite');
 })->name('roomsuite');
 
