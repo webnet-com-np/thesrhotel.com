@@ -6,6 +6,10 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <!-- google site verification -->
+    <meta name="google-site-verification" content="H6PvTGQ6bopRzlZrqhHffUJ_hIM_pPhUMjwys5B9dIU" />
+
+
     <title>{{  'The SR Hotel ,luxury Hotel in Butwal- Bhairahawa, Nepal' }}</title>
 
     <!-- Scripts -->
@@ -36,4 +40,5 @@
     <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/flexslider.css" type="text/css">
     <link rel="icon" type="image/gif" href="{{ BASE_URL }}/assets/images/title-logo.png" />
     {{--<title>The SR Hotel ,luxury Hotel in Butwal- Bhairahawa, Nepal</title>--}}
+
 </head>
