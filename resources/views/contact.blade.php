@@ -27,6 +27,11 @@
                     <div class="col-xs-12">
                         <h1 class="maroon-text">Contact Us Through</h1>
                     </div>
+                    @if(session('message'))
+                        <div class='alert alert-success'>
+                            {{ session('message') }}
+                        </div>
+                    @endif
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
@@ -43,18 +48,19 @@
                         </dl>
                     </div>
                     <div class="col-sm-6">
-                        <form action="#" class="contact-form">
+                        <form action="{{ route('send_email') }}" class="contact-form" method="POST">
+                            {{ csrf_field() }}
                             <div class="form-group">
                                 <label for="f-name">*Full Name</label>
-                                <input id="f-name" type="text" class="form-control">
+                                <input id="f-name" type="text" class="form-control" name="name" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">*Email</label>
-                                <input id="email" type="email" class="form-control">
+                                <input id="email" type="email" class="form-control" name="email_address" required>
                             </div>
                             <div class="form-group">
                                 <label for="comment">Comment</label>
-                                <textarea id="comment" class="form-control" rows="8" cols="45"></textarea>
+                                <textarea id="comment" class="form-control" rows="8" cols="45" required></textarea>
                             </div>
                             <input class="btn btn-default" type="submit" value="Send Message">
                         </form>
