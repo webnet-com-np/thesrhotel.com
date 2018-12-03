@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="{{ BASE_URL }}/assets/images/sr-hotel-slide3.jpg" alt="image description">
+                <img src="{{ BASE_URL .'/assets/images/sr-hotel-slide3.jpg' }}" alt="image description">
             </div>
         </div>
         <!-- Controls -->
@@ -360,7 +360,7 @@
     </main>
     <!-- footer of the page -->
     <div class="b-container">
-		 @include( 'googlemap' )
+        @include( 'googlemap' )
         @include('layouts.footer')
     </div>
 @endsection
