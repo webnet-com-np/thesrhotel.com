@@ -62,4 +62,4 @@ Route::get('rooms/honeymoon-suite-rooms/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::post('/contact/email','ContactController@mail')->name('send_email');
+Route::post('/contact/email','ContactController@send')->name('send_email');

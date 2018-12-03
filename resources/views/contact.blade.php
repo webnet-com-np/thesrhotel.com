@@ -27,11 +27,11 @@
                     <div class="col-xs-12">
                         <h1 class="maroon-text">Contact Us Through</h1>
                     </div>
-                    @if(session('message'))
+                  <!--   @if(session('message'))
                         <div class='alert alert-success'>
                             {{ session('message') }}
                         </div>
-                    @endif
+                    @endif -->
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
@@ -52,15 +52,15 @@
                             {{ csrf_field() }}
                             <div class="form-group">
                                 <label for="f-name">*Full Name</label>
-                                <input id="f-name" type="text" class="form-control" name="name" required>
+                                <input id="f-name" type="text" class="form-control" name="full_name" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">*Email</label>
-                                <input id="email" type="email" class="form-control" name="email_address" required>
+                                <input id="email" type="email" class="form-control" name="email_from" required>
                             </div>
                             <div class="form-group">
                                 <label for="comment">Comment</label>
-                                <textarea id="comment" class="form-control" rows="8" cols="45" required></textarea>
+                                <textarea id="comment" class="form-control" rows="8" name="comment" cols="45" required></textarea>
                             </div>
                             <input class="btn btn-default" type="submit" value="Send Message">
                         </form>
