@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/banquet_hall.jpg" alt="image description">
+                <img src="{{ BASE_URL }}/assets/images/banquet_hall.jpg" alt="image description">
             </div>
             <div class="item">
                 <div class="description">

@@ -27,11 +27,7 @@
                     <div class="col-xs-12">
                         <h1 class="maroon-text">Contact Us Through</h1>
                     </div>
-                   @if(session('message'))
-                        <div class='alert alert-success'>
-                            {{ session('message') }}
-                        </div>
-                    @endif
+
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
@@ -64,6 +60,11 @@
                             </div>
                             <input class="btn btn-default" type="submit" value="Send Message">
                         </form>
+                        @if(session('message'))
+                            <div class='alert alert-success'>
+                                {{ session('message') }}
+                            </div>
+                        @endif
                     </div>
                 </div>
             </div>

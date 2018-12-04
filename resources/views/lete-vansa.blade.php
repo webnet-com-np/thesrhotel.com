@@ -22,7 +22,7 @@
     <main id="main">
         <section class="resturant-details general-padding">
             <div class="row text-center">
-                <img src="{{ BASE_URL }}/assets/images/letevansa-logo.png" alt="">
+                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/letevansa-logo.png" alt="">
             </div>
             <div class="row general-padding">
                 <header class="col-md-10 col-sm-12 col-md-offset-1 col-sm-offset-0 header">
@@ -67,7 +67,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>MO:MO</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -78,7 +78,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -89,7 +89,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -104,7 +104,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -115,7 +115,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -126,7 +126,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -143,7 +143,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -154,7 +154,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -165,7 +165,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -180,7 +180,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -191,7 +191,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -202,7 +202,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -219,7 +219,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -230,7 +230,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -241,7 +241,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -256,7 +256,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -267,7 +267,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -278,7 +278,7 @@
                                     <li>
                                         <a href="#">
                                             <div class="image-frame">
-                                                <img src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>
+                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>
                                             <div class="text">
                                                 <h2>Wellfleet oysters</h2>
                                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>

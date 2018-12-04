@@ -41,7 +41,7 @@
                                 <li><a href="#"><span class="icon-google"></span></a></li>
                             </ul>
                         </div>
-                        <img src="{{BASE_URL}}/assets/images/conference-hall-1.jpg" alt="image description">
+                        <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/conference-hall-1.jpg" alt="image description">
                     </div>
                     <div class="info-bar">
                         <div class="holder">
@@ -68,7 +68,7 @@
                                 <li><a href="#"><span class="icon-google"></span></a></li>
                             </ul>
                         </div>
-                        <img src="{{BASE_URL}}/assets/images/conference-hall-2.jpg" alt="image description">
+                        <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/conference-hall-2.jpg" alt="image description">
                     </div>
                     <div class="info-bar">
                         <div class="holder">
@@ -95,7 +95,7 @@
                                 <li><a href="#"><span class="icon-google"></span></a></li>
                             </ul>
                         </div>
-                        <img src="{{BASE_URL}}/assets/images/conference-hall-2.jpg" alt="image description">
+                        <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/conference-hall-2.jpg" alt="image description">
                     </div>
                     <div class="info-bar">
                         <div class="holder">
@@ -234,7 +234,7 @@
                                     <div class="col-sm-4 col">
                                         <div class="image-frame">
                                             <div class="image-holder">
-                                                <img src="{{BASE_URL}}/assets/images/thumb-12.jpg" alt="image description">
+                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/thumb-12.jpg" alt="image description">
                                             </div>
                                         </div>
                                     </div>
@@ -251,7 +251,7 @@
                                     <div class="col-sm-4 col">
                                         <div class="image-frame">
                                             <div class="image-holder">
-                                                <img src="{{BASE_URL}}/assets/images/thumb-13.jpg" alt="image description">
+                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/thumb-13.jpg" alt="image description">
                                             </div>
                                         </div>
                                     </div>
@@ -270,7 +270,7 @@
                                     <div class="col-sm-4 col">
                                         <div class="image-frame">
                                             <div class="image-holder">
-                                                <img src="{{BASE_URL}}/assets/images/thumb-12.jpg" alt="image description">
+                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/thumb-12.jpg" alt="image description">
                                             </div>
                                         </div>
                                     </div>
@@ -287,7 +287,7 @@
                                     <div class="col-sm-4 col">
                                         <div class="image-frame">
                                             <div class="image-holder">
-                                                <img src="{{BASE_URL}}/assets/images/thumb-13.jpg" alt="image description">
+                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/thumb-13.jpg" alt="image description">
                                             </div>
                                         </div>
                                     </div>
@@ -306,7 +306,7 @@
                                     <div class="col-sm-4 col">
                                         <div class="image-frame">
                                             <div class="image-holder">
-                                                <img src="{{BASE_URL}}/assets/images/thumb-12.jpg" alt="image description">
+                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/thumb-12.jpg" alt="image description">
                                             </div>
                                         </div>
                                     </div>
@@ -323,7 +323,7 @@
                                     <div class="col-sm-4 col">
                                         <div class="image-frame">
                                             <div class="image-holder">
-                                                <img src="{{BASE_URL}}/assets/images/thumb-13.jpg" alt="image description">
+                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/thumb-13.jpg" alt="image description">
                                             </div>
                                         </div>
                                     </div>
