@@ -32,6 +32,7 @@ class Contact extends Mailable
     public function build(Request $request)
     {
 
-        return $this->view('mail',['msg'=>$request->comment,'name'=>$request->full_name,'email'=>$request->email_from]);
+        return $this->view('mail',['msg'=>$request->comment,'name'=>$request->full_name,'email'=>$request->email_from])
+	        ->subject('Contact Inquiry');
     }
 }

@@ -80,7 +80,6 @@
                                         <select>
                                             <option value="Adult" selected>Adult</option>
                                             <option>Children</option>
-                                            <option>Option3</option>
                                         </select>
                                     </div>
                                 </div>
@@ -90,8 +89,6 @@
                                     <div class="fake-select">
                                         <select>
                                             <option value="Room" selected>Room</option>
-                                            <option>Option2</option>
-                                            <option>Option3</option>
                                         </select>
                                     </div>
                                 </div>
