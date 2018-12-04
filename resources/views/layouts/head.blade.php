@@ -18,26 +18,27 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link href="{{ BASE_URL }}/css/vendor.css" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
     {{--<link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
-    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/bootstrap.css" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/style.css" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/custom.css" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/colors.css" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/jquery.countdown.css" type="text/css">
-    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/animations.min.css" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/datepicker.css" type="text/css" media="all">
+    {{--<link rel="stylesheet" href="{{ BASE_URL }}/assets/css/bootstrap.css" type="text/css" media="all">--}}
+    {{--<link rel="stylesheet" href="{{ BASE_URL }}/assets/css/style.css" type="text/css" media="all">--}}
+    {{--<link rel="stylesheet" href="{{ BASE_URL }}/assets/css/custom.css" type="text/css" media="all">--}}
+    {{--<link rel="stylesheet" href="{{ BASE_URL }}/assets/css/colors.css" type="text/css" media="all">--}}
+    {{--<link rel="stylesheet" href="{{ BASE_URL }}/assets/css/jquery.countdown.css" type="text/css">--}}
+    {{--<link rel="stylesheet" href="{{ BASE_URL }}/assets/css/animations.min.css" type="text/css" media="all">--}}
+    {{--<link rel="stylesheet" href="{{ BASE_URL }}/assets/css/datepicker.css" type="text/css" media="all">--}}
     <!-- Bootstrap Dropdown Hover CSS -->
-    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/animate.min.css" type="text/css" media="all">
-    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/bootstrap-dropdownhover.min.css" type="text/css" media="all">
+{{--    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/animate.min.css" type="text/css" media="all">--}}
+{{--    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/bootstrap-dropdownhover.min.css" type="text/css" media="all">--}}
     <!-- Fonts CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" type="text/css">
     <!-- Range slider CSS -->
-    <link rel="stylesheet prefetch" href="{{ BASE_URL }}/assets/css/jquery-ui.css" type="text/css">
+    {{--<link rel="stylesheet prefetch" href="{{ BASE_URL }}/assets/css/jquery-ui.css" type="text/css">--}}
     <!-- flex slider CSS -->
-    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/flexslider.css" type="text/css">
+    {{--<link rel="stylesheet" href="{{ BASE_URL }}/assets/css/flexslider.css" type="text/css">--}}
     <link rel="icon" type="image/gif" href="{{ BASE_URL }}/assets/images/title-logo.png" />
     {{--<title>The SR Hotel ,luxury Hotel in Butwal- Bhairahawa, Nepal</title>--}}
 

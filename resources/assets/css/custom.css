@@ -1,0 +1,443 @@
+@font-face{font-family:'apercu';src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-light-pro.eot");src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-light-pro.eot?#iefix") format("embedded-opentype"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-light-pro.woff") format("woff"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-light-pro.woff2") format("woff2"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-light-pro.ttf") format("truetype");font-weight:300;font-style:normal}@font-face{font-family:'apercu';src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-light-italic-pro.eot");src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-light-italic-pro.eot?#iefix") format("embedded-opentype"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-light-italic-pro.woff") format("woff"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-light-italic-pro.woff2") format("woff2"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-light-italic-pro.ttf") format("truetype");font-weight:300;font-style:italic}@font-face{font-family:'apercu';src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-regular-pro.eot");src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-regular-pro.eot?#iefix") format("embedded-opentype"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-regular-pro.woff") format("woff"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-regular-pro.woff2") format("woff2"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-regular-pro.ttf") format("truetype");font-weight:400;font-style:normal}@font-face{font-family:'apercu';src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-medium-pro.eot");src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-medium-pro.eot?#iefix") format("embedded-opentype"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-medium-pro.woff") format("woff"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-medium-pro.woff2") format("woff2"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-medium-pro.ttf") format("truetype");font-weight:500;font-style:normal}@font-face{font-family:'apercu';src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-bold-pro.eot");src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-bold-pro.eot?#iefix") format("embedded-opentype"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-bold-pro.woff") format("woff"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-bold-pro.woff2") format("woff2"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-bold-pro.ttf") format("truetype");font-weight:600;font-weight:bold;font-style:normal}@font-face{font-family:'apercu';src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-black-pro.eot");src:url("https://assets.awwwards.com/assets/fonts/apercu/apercu-black-pro.eot?#iefix") format("embedded-opentype"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-black-pro.woff") format("woff"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-black-pro.woff2") format("woff2"),url("https://assets.awwwards.com/assets/fonts/apercu/apercu-black-pro.ttf") format("truetype");font-weight:800;font-style:normal}
+
+@media only screen and (max-device-width : 991px){
+    .sr-hotel-animate .sr-hotel-popup-img {
+        display: none;
+    }
+}
+*{
+    font-family: lato;
+}
+.general-padding{
+    padding: 50px 0;
+}
+#header {
+    background: #892e41 !important;
+}
+.logo img {
+    width: 100%;
+}
+.navbar-default .navbar-nav li a {
+    color: #fff;
+}
+.navbar-default .navbar-nav li.dropdown li a {
+    color: #fff;
+}
+.navbar-nav > li > .dropdown-menu {
+    background: #892e41;
+}
+.navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a:active {
+    border-color: #f8c136 !important;
+}
+.navbar-default .navbar-nav li a:hover:before, .navbar-default .navbar-nav li a:hover:after,.navbar-default .navbar-nav li a:active:before, .navbar-default .navbar-nav li a:active:after {
+    background: #f8c136 !important;
+}
+.navbar-default .navbar-nav li.active a, .navbar-default .navbar-nav li.open a {
+    color: #f8c136;
+}
+.navbar-default .navbar-nav li.active a:hover, .navbar-default .navbar-nav li.open a:hover {
+    color: #f8c136;
+}
+.navbar-default .navbar-nav li.active a, .navbar-default .navbar-nav li.open a {
+    border-color: #f8c136 !important;
+}
+.navbar-default .navbar-nav li.active a:before, .navbar-default .navbar-nav li.active a:after, .navbar-default .navbar-nav li.open a:before, .navbar-default .navbar-nav li.open a:after {
+    background-color: #f8c136 !important;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav > li > a:active {
+    color: #f8c136;
+}
+#header .navbar-toggle {
+    background: #f8c136!important;
+    border: 2px solid #f8c136!important;
+}
+header .navbar-toggle:after, #header .navbar-toggle:before, #header .navbar-toggle span {
+    background: #892e41 !important;
+}
+body.active .navbar-collapse {
+    background: #892e41 !important;
+}
+/**********banner******************/
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+    margin: auto;
+    /* position: absolute; */
+    width: auto;
+    height: auto;
+}
+.form-control:focus {
+    color: #f8c136 !important;
+    border-color:#f8c136 !important
+}
+.reservation-bar .btn {
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    box-shadow: none;
+    background: #f8c136 !important;
+    border-radius: 0;
+    font: 600 15px/17px "Source Sans Pro", Arial, helvetica, sans-serif;
+}
+.reservation-bar .btn-reservation:hover {
+    text-transform: uppercase;
+    color: #f8c136;
+    border: 1px solid #f8c136 !important;
+    background: none!important;
+}
+.navigation-bar .link:hover {
+    color: #fac136 !important;
+}
+/*********sr-hotel-animate popup img***************/
+.sr-hotel-animate .row div:nth-child(n) {
+    padding: 0;
+}
+.sr-hotel-animate .sr-hotel-popup-img {
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+}
+.sr-hotel-animate .sr-hotel-background-img {
+    margin: 30px 100px;
+}
+.title {
+    color: #8a2e42;
+}
+.animate h1:after {
+    left: 50%;
+    bottom: 0;
+    content: "";
+    margin: 0 0 0 -61px;
+    position: absolute;
+    width: 122px;
+    height: 21px;
+    background: url(../images/sprite_yellow.png) 0 -77px;
+}
+.restaurant .btn-default {
+    border-color: #f8c136 !important;
+    color: #f8c136 !important;
+    border-radius: 0;
+}
+.carousel-caption .btn.btn-default,.animate .btn.btn-default{
+    color: #f8c136;
+    border-radius: 0;
+    border-color: #f8c136 !important;
+}
+.btn-default:hover {
+    color: #fff !important;
+    background: #f8c136 !important;
+}
+.maroon-text {
+    color: #8a2e42 !important;
+}
+.bg-maroon {
+    background-color: #8a2e42 !important;
+}
+.yellow-text {
+    color: #fac136 !important;
+}
+.bg-yellow{
+    color:#f8c136 !important;
+}
+.rooms .carousel-indicators li.active, .rooms .carousel-indicators li:hover{
+    background: #f8c136!important;
+}
+.rooms .carousel-indicators li{
+    border-color:#f8c136!important;
+}
+/***********about us page*********************/
+.about .box:before {
+    background: #f8c136;
+}
+h1:after {
+    background: url(../images/sprite_yellow.png) 0 -77px;
+}
+.about .icon.ico-luxury {
+    background: url(../images/sprite_yellow.png) no-repeat -40px 0;
+}
+.about .icon.ico-services{
+    background: url(../images/sprite_yellow.png) no-repeat -97px 0;
+}
+.about .icon.ico-reservation {
+    background: url(../images/sprite_yellow.png) no-repeat -170px 0;
+}
+.team-carousel [class^="col-"]:after {
+    background: none;
+}
+.team-carousel .box:hover .info-box {
+    display: block;
+}
+.team-carousel .info-box {
+    background: rgba(137, 46, 65, 0.38) !important;
+}
+.team-carousel .carousel-indicators li.active, .team-carousel .carousel-indicators li:hover {
+    background: #f8c136!important;
+}
+.team-carousel .carousel-indicators li {
+    border-color: #f8c136 !important;
+}
+.team-carousel .image-frame,.team-carousel .image-frame img,.team-carousel .info-box{
+    border-radius: 0%!important;
+}
+/********restaurant page************/
+.restaurant-wrapper .restaurant-details{
+    margin: 20px auto;
+    text-align: center;
+}
+.srhotel-restaurant.restaurant .image-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.restaurant-details .restaurant-name {
+    font-size: 20px;
+    font-family: lato;
+    text-transform: uppercase;
+    color: #8a2e42;
+
+;
+}
+/******room-type-details***********/
+.our-room.room-type-details {
+    margin: 50px 0;
+}
+/**********restaurant details****************/
+.restaurant-menus header h1{
+    text-transform: uppercase;
+    color: #8a2e42;
+    font-style: normal;
+}
+.restaurant-menus header h1:after {
+    left: 50%;
+    bottom: 0;
+    content: "";
+    margin: 0 0 0 -61px;
+    position: absolute;
+    width: 122px;
+    height: 21px;
+    background: url(../images/sprite_yellow.png) 0 -77px;
+}
+.menu-list h2 {
+    color: #8a2e42 !important;
+}
+.restaurant-time-capacity-wrapper{
+    text-align: center;
+    margin: 20px auto;
+}
+.restaurant-time-capacity-wrapper .srhotel-restaurant-time,.restaurant-time-capacity-wrapper .srhotel-restaurant-capacity{
+    padding: 20px;
+    display: inline-block;
+}
+.srhotel-restaurant-time .restro-time-title, .srhotel-restaurant-capacity .seating-capacity-title{
+
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #8a2e42;
+}
+.opening-time, .seat-capacity-no{
+    font-size: 14px;
+}
+.menu-list .price{
+    color: #8a2e42;
+    border: 1px solid #8a2e42 !important;
+}
+.menu-list a:hover .price{
+    background: #8a2e42 !important;
+}
+.menu-carousel .carousel-indicators li{
+    border-color: #fac136 !important;
+}
+.menu-carousel .carousel-indicators li.active, .menu-carousel .carousel-indicators li:hover {
+    background: #fac136!important;
+}
+
+/*********google map********8*/
+.sr-hotel-map .map-responsive iframe {
+    width: 100%;
+
+}
+.sr-hotel-map .map-responsive {
+    padding-bottom: 440px;
+}
+/******footer-navigation********/
+.f-nav li {
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    margin: 15px 0;
+    padding: 2px 10px;
+    font-weight: 300;
+
+}
+.f-nav li:hover{
+    color: #f8c136;
+    border-left: 1px solid #f8c136;
+}
+.f-nav li a:hover{
+    color: #f8c136;
+}
+.footer-nav .logo {
+    width: 132px;
+    height: auto;
+    position: unset;
+    /* margin: -21px 0 0 -61px; */
+    left:unset;
+    top: 20%;
+}
+.footer-nav .logo img{
+    margin: 0 auto 25px auto;
+    width: auto;
+}
+
+.newsletter-form h3 {
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.newsletter-form input[type="email"] {
+    border-top: none;
+    background: none;
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    border-right: none;
+    border-left: none;
+}
+.newsletter-form input[type="email"]::placeholder{
+    font-size: 12px;
+    padding: 4px 10px;
+}
+.newsletter-form button.btn.btn-default {
+    display: block;
+    margin: 15px 0;
+    color: #f8c136;
+    border: 1px solid #f8c136;
+    border-radius: 0;
+}
+.b-container .social-networks {
+    text-align: left;
+}
+.b-container .social-networks a:hover {
+    text-decoration: none;
+    border-color: #f8c136;
+    color: #f8c136;
+}
+.sr-hotel-address span {
+    display: block;
+    text-align: left;
+}
+.sr-hotel-address .address-title{
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color:#f8c136;
+    font-size: 18px;
+    font-weight: 400;
+}
+.sr-hotel-address .address-detail,.sr-hotel-address .contact-detail,.sr-hotel-address .mail-detail{
+    margin: 20px auto;
+    color: #fff;
+    font-size: 14px;
+}
+.sr-hotel-address .address-detail a, .sr-hotel-address .contact-detail a, .sr-hotel-address .mail-detail a {
+    color: #fff;
+}
+
+.address-detail .address-info,.contact-detail .contact-info,.mail-detail .mail-info {
+    line-height: 23px;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+#footer{
+    background: rgb(26, 26, 26)!important;
+}
+#footer p {
+    font-size: 12px;
+    text-align: center;
+    color: #7e7e7e !important;
+}
+#footer p a {
+    color: #fac136;
+}
+a.webnet-color {
+    color: #8cc5ea !important;
+}
+
+/************contact us********************/
+.form-control {
+    border-radius:0;
+}
+.contact-form .btn{
+    border-radius:0;
+    border:none;
+    background:#f8c136!important;
+}
+/******************************88*/
+.rooms-section .info-block .info-frame{
+    background: rgba(138, 46, 66, 0.37);
+}
+.rooms-section .info-block .holder{
+    background: #8a2e42;
+}
+.info-block .holder .title,.info-block .holder .price span{
+    font-family: lato !important;
+    color:#f8c136 !important;
+}
+.rooms-section .info-block .holder .col:first-child{
+    border-right: 1px solid #f8c137 !important;
+}
+.rooms-section .info-block .holder .col {
+    padding: 0 10px;
+}
+.rooms-section .info-block .holder .title {
+    text-align: center;
+    text-transform: uppercase;
+    font: 400 16px/18px "Lora", Arial, helvetica, sans-serif;
+}
+.rooms-section .info-block .holder .price {
+    text-align: center;
+}
+.about .icon.ico-projector {
+    background: url(../images/sprite_yellow.png) no-repeat -1px -260px;
+}
+.about .icon.ico-people {
+    background: url(../images/sprite_yellow.png) no-repeat -92px -273px;
+}
+.about .icon.ico-breakfast {
+    background: url(../images/sprite_yellow.png) no-repeat -177px -269px;
+}
+.social-networks a:hover{
+    color: #f8c136 !important;
+    border-color: #f8c136 !important;
+}
+.testimonials blockquote cite{
+    color: #f8c136 !important;
+}
+.testimonials .carousel-indicators li.active, .testimonials .carousel-indicators li:hover {
+    background:  #f8c136!important;
+}
+.testimonials .carousel-indicators li {
+    border-color:  #f8c136 !important;
+}
+/******next inline page******************/
+.banquet-hall-section h1, .swimming-pool-section h1 {
+    margin-bottom: 25px;
+}
+.wedding-pictures{
+    display: inline-flex;
+}
+
+/***************collapsed menu*******************/
+.navbar-collapse.collapse.in ul {
+    text-align: left;
+}
+.navbar-collapse.collapse.in .navbar-nav .dropdown-menu {
+    display: contents;
+    padding: 0px 22px;
+    text-align: left;
+}
+.navbar-collapse.collapse.in .navbar-nav .dropdown-menu li {
+    font-size: 12px;
+    margin: 5px 30px !important;
+}
+.navbar-collapse.collapse.in .navbar-nav .dropdown-menu li:hover a {
+    color: #f8c136;
+}

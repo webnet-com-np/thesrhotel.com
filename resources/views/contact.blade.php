@@ -27,11 +27,11 @@
                     <div class="col-xs-12">
                         <h1 class="maroon-text">Contact Us Through</h1>
                     </div>
-                  <!--   @if(session('message'))
+                   @if(session('message'))
                         <div class='alert alert-success'>
                             {{ session('message') }}
                         </div>
-                    @endif -->
+                    @endif
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
