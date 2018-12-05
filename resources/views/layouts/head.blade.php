@@ -35,8 +35,7 @@
 {{--    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/animate.min.css" type="text/css" media="all">--}}
 {{--    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/bootstrap-dropdownhover.min.css" type="text/css" media="all">--}}
 <!-- Fonts CSS -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro" rel="stylesheet">
     <!-- Range slider CSS -->
 {{--<link rel="stylesheet prefetch" href="{{ BASE_URL }}/assets/css/jquery-ui.css" type="text/css">--}}
 <!-- flex slider CSS -->
