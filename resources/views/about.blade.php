@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="600">
-                    <div class="image-frame"><img src="{{BASE_URL}}/assets/images/first_floor_lobby.jpg" alt="image description"></div>
+                    <div class="image-frame"><img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/first_floor_lobby.jpg" alt="image description"></div>
                 </div>
             </div>
         </section>
@@ -174,7 +174,7 @@
                                                 </div>
                                             </div>
                                             <div class="image-frame">
-                                                <img src="{{BASE_URL}}/assets/images/wisdomlumbinicollege.jpg" alt="image description">
+                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/wisdomlumbinicollege.jpg" alt="image description">
                                             </div>
                                         </div>
                                     </div>

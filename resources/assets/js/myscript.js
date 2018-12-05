@@ -55,10 +55,10 @@ $(window).load(function() {
         asNavFor: '#flex-slider',
         before: function(slider) {
             // lazy load
-            $("#thumbnails img.lazy").slice(0,3).each(function () {
-                var src = $(this).attr("data-src");
-                $(this).attr("src", src).removeAttr("data-src").removeClass("lazy");
-            });
+            // $("#thumbnails img.lazy").slice(0,3).each(function () {
+            //     var src = $(this).attr("data-src");
+            //     $(this).attr("src", src).removeAttr("data-src").removeClass("lazy");
+            // });
         }
     });
 
