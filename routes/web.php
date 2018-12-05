@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', [
+	    'metas' => config( "meta_tags.home" ) ,
+    ]);
 })->name('index');
 
 Route::get('/contact-us/', function () {
@@ -32,7 +34,9 @@ Route::get('/next-in-line/', function () {
 })->name('nextline');
 
 Route::get('/restaurants/', function () {
-	return view('restaurants');
+	return view('restaurants',[
+		'metas' => config( "meta_tags.restaurants" )
+	]);
 })->name('restaurants');
 
 Route::get('restaurants/one-square-lounge/', function () {

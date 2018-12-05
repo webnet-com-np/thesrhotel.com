@@ -114,7 +114,12 @@
                     <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="300">
                         <div class="text-box">
                             <h1 class="animate-title title">Warmest welcome for our guest</h1>
-                            <p>Team of highly motivated, dynamic and energetic professionals have joined hands to create a new benchmark in hotel industry in Nepal. We welcome you to The SR Hotel for complete hospitality service and lifetime memories.
+                            <p>Located in the foothills of chure hills and on the southern plains of Terai region of Nepal, The SR Hotel is committed and dedicated to providing you with the best hotel experience you can have while your stay in Nepal. With just 20 Kilometers North from Gautam Buddha Airport, Bhairahawa, and 40 Kilometers North from Lumbini, The SR Hotel is a perfect example of luxury and comfort.</p>
+
+                              <p> Equipped with 31 well furnished and spacious rooms wherein each room enjoys
+                               a beautiful view of the town. The Hotel has 9 Deluxe, 11 Luxury & 2 Honeymoon
+                               Suits spread out on Ground plus 4 Floor levels.
+
                             </p>
                             <a href="#" class="btn btn-default">Book Now</a>
                         </div>

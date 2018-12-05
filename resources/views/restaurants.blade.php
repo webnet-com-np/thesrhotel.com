@@ -61,7 +61,12 @@
             <div class="row">
                 <header class="col-md-10 col-sm-12 col-md-offset-1 col-sm-offset-0 header">
                     <h1 class="maroon-text">Our Restaurants</h1>
-                    <p>Select among Fine dining, Bar and open terrace for a complete restaurant experience.</p>
+                    <p>
+                        Enjoy Unique, yet magnificent dining experience at our restaurants. Whether you’re viewing the chure ranges, or the magnificent terai plains while sipping a refreshing cocktail or sharing an authentic Nepali meal with friends, your time spent at any of our 2 on-site restaurants at The SR Hotel is sure to be memorable.
+                    </p>
+                    <p>
+                        Start your day with a hearty Super Breakfast from our Cafe or a casual lunch in a fine dining experience in Lette Vansa Ghar, will make your way to Neptunes. You can plan a special evening at One Square Lounge. While there are many bars and lounges in Butwal, this is the first time you will experience an entirely different environment here at One Square Lounge in all Butwal and well as Bhairahawa.
+                    </p>
                 </header>
             </div>
         </section>
@@ -78,7 +83,8 @@
                         </div>
                     </div>
                     <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="600">
-                        <div class="image-frame"><img src="{{ BASE_URL }}/assets/images/one_square_lounge.jpg" alt="image description"></div>
+                        <div class="image-frame">
+                            <img src="{{ BASE_URL }}/assets/images/one_square_lounge.jpg" alt="image description"></div>
                     </div>
                 </div>
             </div>
@@ -87,21 +93,22 @@
         <section class="restaurant srhotel-restaurant" style="background-image: url({{ BASE_URL }}/assets/images/pattern.jpg);">
             <div class="container general-padding">
                 <div class="row">
-                    <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="600">
-                        <div class="image-frame"><img src="{{ BASE_URL }}/assets/images/lete_vansa.jpg" alt="image description"></div>
-                    </div>
-                    <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="300">
+                    <div class="col-sm-6 col-sm-push-6 animate" data-anim-type="fadeInUp" data-anim-delay="300">
                         <div class="text-box">
                             <h1 class="maroon-text">Lete Vansa</h1>
                             <p>This will be on the ground floor, next to hotel reception. Lete is essentially, a name of place, which is the gateway to Mustang. This will be a contemporary mustang themed dining area with indoor and outdoor seating areas. This will give our guests an opportunity to know about geographical and cultural diversity of our country. </p>
                             <a href="{{ route('letevansa') }}" class="btn btn-default">Read More</a>
                         </div>
                     </div>
+                    <div class="col-sm-6 col-sm-pull-6 animate" data-anim-type="fadeInUp" data-anim-delay="600">
+                        <div class="image-frame">
+                            <img src="{{ BASE_URL }}/assets/images/lete_vansa.jpg" alt="image description"></div>
+                    </div>
+
 
                 </div>
             </div>
         </section>
-
 
 
         <!-- gallery-section -->
