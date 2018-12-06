@@ -16,14 +16,14 @@ define("FOOTER_LOADED" , TRUE);
                 <!-- footer navigation -->
                 <nav class="f-nav col-md-4 col-sm-4 col-xs-6">
                     <ul class="nav navbar-left">
-                        <li><a href="index.php">HOME</a></li>
-                        <li><a href="aboutus.php">ABOUT US</a></li>
-                        <li><a href="rooms.html">rooms</a></li>
-                        <li><a href="conference-room.php">conference room</a>
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="/about-us/">ABOUT US</a></li>
+                        <li><a href="/">rooms</a></li>
+                        <li><a href="/conference-room/">conference room</a>
                         </li>
-                        <li><a href="next-inline.php">next inline</a></li>
-                        <li><a href="restaurant.php">restaurant</a></li>
-                        <li><a href="contact.php">contact</a></li>
+                        <li><a href="/next-inline/">next inline</a></li>
+                        <li><a href="/restaurant/">restaurant</a></li>
+                        <li><a href="/contact/">contact</a></li>
                     </ul>
 
                 </nav>
