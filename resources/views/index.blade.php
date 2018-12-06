@@ -87,8 +87,8 @@
                             <div class="col-sm-4">
                                 <div class="form-group">
                                     <div class="fake-select">
-                                        <select>
-                                            <option value="Room" selected>Room</option>
+                                        <select disabled>
+                                            <option value="Room" selected >Room</option>
                                         </select>
                                     </div>
                                 </div>
