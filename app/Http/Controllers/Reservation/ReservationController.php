@@ -25,7 +25,7 @@ class ReservationController extends Controller
 	//sends email from guest-info for reservation
 
 	public function mail(Request $request){
-		Mail::to('bzung231@gmail.com')->send(new Reservation());
+		Mail::to('thesrhotel@gmail.com')->send(new Reservation());
 		return redirect()
 			->route('bookings')
 			->with(['message' => "Your request  has been successfully sent "]);
