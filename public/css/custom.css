@@ -1,0 +1,23 @@
+.reservation-bar form input {
+    cursor: pointer;
+}
+.reservation-bar{
+overflow: visible !important;
+}
+div#guest-modal {
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    margin-top: 12px;
+    background: #faf7f2;
+    padding: 24px 24px 8px;
+    min-width: 247px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+    z-index: 999;
+}
+#guest-modal select {height: 32px;background: #fff;}
+#guest-modal .guest-modal-select {
+    float: right;
+}
