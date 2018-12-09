@@ -15,6 +15,13 @@
                 <div class="row">
 
                     <div class="col-sm-6">
+                        @if(session('message'))
+
+                            <div class='alert alert-success  alert-dismissible'>
+                                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                {{ session('message') }}
+                            </div>
+                        @endif
                         <form action="{{ route('reserve_email') }}" class="contact-form" method="POST">
                             {{ csrf_field() }}
                             <div class="form-group">
@@ -27,15 +34,11 @@
                             </div>
                             <div class="form-group">
                                 <label for="phone">*Phone</label>
-                                <input id="phone" type="number" class="form-control" name="phone" required>
+                                <input id="phone" type="tel" class="form-control" name="phone"  maxlength="10"  required>
                             </div>
                             <input class="btn btn-default" type="submit" value="Reserve">
                         </form>
-                        @if(session('message'))
-                            <div class='alert alert-success'>
-                                {{ session('message') }}
-                            </div>
-                        @endif
+
                     </div>
                     <div class="col-sm-6">
 

@@ -79,13 +79,13 @@
                                 <div class="form-group">
                                     <div class="fake-select">
 
-                                        <input class="form-control" name="guest_numbers" data-toggle="collapse" type="text" data-target="#guest-modal" placeholder="2 Adults 1 Child"  id="guest-numbers" value="" required readonly style="background-color:#353535" >
+                                        <input class="form-control" name="guest_numbers" data-toggle="collapse" type="text" data-target="#guest-modal" placeholder="2 Adults 1 Child"  id="guest-numbers"  autocomplete="off" required  style="background-color:#353535" >
                                         <div class="collapse guest-modal" id="guest-modal">
                                             <form>
                                                 <div class="form-group row">
                                                     <label for="Children" class="col-sm-2 col-form-label">Children</label>
                                                     <div class="col-sm-5 guest-modal-select">
-                                                        <select name="children" id="child-num">
+                                                        <select name="children" id="child-num" required>
                                                             <option value="0" selected>0</option>
                                                             <option value="1">1</option>
                                                             <option value="2">2</option>
@@ -98,7 +98,7 @@
                                                 <div class="form-group row">
                                                     <label for="adult" class="col-sm-2 col-form-label">Adult</label>
                                                     <div class="col-sm-5 guest-modal-select">
-                                                        <select name="adult" id="adult-num">
+                                                        <select name="adult" id="adult-num" required>
                                                             <option value="1" selected>1</option>
                                                             <option value="2">2</option>
                                                             <option value="3">3</option>

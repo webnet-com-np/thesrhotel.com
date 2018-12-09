@@ -44,6 +44,13 @@
                         </dl>
                     </div>
                     <div class="col-sm-6">
+                        @if(session('message'))
+
+                            <div class='alert alert-success  alert-dismissible'>
+                                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                {{ session('message') }}
+                            </div>
+                        @endif
                         <form action="{{ route('send_email') }}" class="contact-form" method="POST">
                             {{ csrf_field() }}
                             <div class="form-group">
@@ -60,11 +67,7 @@
                             </div>
                             <input class="btn btn-default" type="submit" value="Send Message">
                         </form>
-                        @if(session('message'))
-                            <div class='alert alert-success'>
-                                {{ session('message') }}
-                            </div>
-                        @endif
+
                     </div>
                 </div>
             </div>

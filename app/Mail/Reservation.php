@@ -34,12 +34,12 @@ class Reservation extends Mailable
 	        	'phone'=>$request->phone,
 		        'name'=>$request->full_name,
 		        'email'=>$request->email_from,
-	            'arrival_date' => session('arrival_date'),
-		        'departure_date' => session('departure_date'),
-		        'guest_numbers' => session('guest_numbers'),
-		        'adult_numbers' => session('adult'),
-		        'child_numbers' => session('children'),
-		        'room_type' => session('room_type'),
+	            'arrival_date' => session('booking.arrival_date'),
+		        'departure_date' => session('booking.departure_date'),
+		        'guest_numbers' => session('booking.guest_numbers'),
+		        'adult_numbers' => session('booking.adult'),
+		        'child_numbers' => session('booking.children'),
+		        'room_type' => session('booking.room_type'),
 
 	        ])
 		        ->subject('Booking Inquiry');
