@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="{{ BASE_URL }}/assets/images/banquet_hall.jpg" alt="image description">
+                <img src="{{ BASE_URL }}/assets/images/banquet_hall.webp" alt="image description">
             </div>
             <div class="item">
                 <div class="description">
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/sr-hotel-slide2.jpg" alt="image description">
+                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/sr-hotel-slide2.webp" alt="image description">
             </div>
             <div class="item">
                 <div class="description">
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="lazy" src="" data-src="{{ BASE_URL .'/assets/images/sr-hotel-slide3.jpg' }}" alt="image description">
+                <img class="lazy" src="" data-src="{{ BASE_URL .'/assets/images/sr-hotel-slide3.webp' }}" alt="image description">
             </div>
         </div>
         <!-- Controls -->
@@ -143,7 +143,7 @@
     <!-- contain main informative part of the site -->
     <main id="main">
         <!--section resturants-->
-        <section class="restaurant" style="background-image: url({{ BASE_URL }}/assets/images/pattern.jpg);">
+        <section class="restaurant" style="background-image: url({{ BASE_URL }}/assets/images/patternwebp);">
             <div class="container general-padding">
                 <div class="row">
                     <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="300">
@@ -162,11 +162,11 @@
                     <div class="col-sm-6 animate sr-hotel-animate" data-anim-type="fadeInUp" data-anim-delay="600">
                         <div class="row">
                             <div class="col-md-4 sr-hotel-popup-img">
-                                <img class="lazy" src="" data-src="/assets/images/circular-image.jpg" alt="" style="border-radius: 50%">
+                                <img class="lazy" src="" data-src="/assets/images/circular-image.webp" alt="" style="border-radius: 50%">
                             </div>
                             <div class="col-md-8 sr-hotel-background-img">
                                 <div class="image-frame">
-                                    <img class="lazy" src="" data-src="/assets/images/restro-background.jpg" alt="image description">
+                                    <img class="lazy" src="" data-src="/assets/images/restro-background.webp" alt="image description">
                                 </div>
                             </div>
                         </div>
@@ -254,7 +254,7 @@
                     </div>
                     <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="600">
                         <div class="image-frame">
-                            <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/restaurant-img.jpg" alt="image description">
+                            <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/restaurant-img.webp" alt="image description">
                         </div>
                     </div>
                 </div>
@@ -275,8 +275,8 @@
                             <div class="item active">
                                 <div class="col-sm-8 col">
                                     <div class="image-holder">
-                                        <a href="{{ BASE_URL }}/assets/images/suite-room.jpg" class="fancybox">
-                                            <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/suite-room.jpg" alt="image description">
+                                        <a href="{{ BASE_URL }}/assets/images/suite-room.webp" class="fancybox">
+                                            <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/suite-room.webp" alt="image description">
                                         </a>
                                     </div>
                                 </div>
@@ -292,8 +292,8 @@
                             <div class="item">
                                 <div class="col-sm-8 col">
                                     <div class="image-holder">
-                                        <a href="{{ BASE_URL }}/assets/images/delux-room.jpg" class="fancybox">
-                                            <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/delux-room.jpg" alt="image description">
+                                        <a href="{{ BASE_URL }}/assets/images/delux-room.webp" class="fancybox">
+                                            <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/delux-room.webp" alt="image description">
                                         </a>
                                     </div>
                                 </div>
@@ -309,8 +309,8 @@
                             <div class="item">
                                 <div class="col-sm-8 col">
                                     <div class="image-holder">
-                                        <a href="{{ BASE_URL }}/assets/images/luxury-room.jpg" class="fancybox">
-                                            <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/luxury-room.jpg" alt="image description">
+                                        <a href="{{ BASE_URL }}/assets/images/luxury-room.webp" class="fancybox">
+                                            <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/luxury-room.webp" alt="image description">
                                         </a>
                                     </div>
                                 </div>
@@ -326,8 +326,8 @@
                             <div class="item">
                                 <div class="col-sm-8 col">
                                     <div class="image-holder">
-                                        <a href="{{ BASE_URL }}/assets/images/luxury-room.jpg" class="fancybox">
-                                            <img class="lazy" src="" data-src="/assets/images/luxury-room.jpg" alt="image description">
+                                        <a href="{{ BASE_URL }}/assets/images/luxury-room.webp" class="fancybox">
+                                            <img class="lazy" src="" data-src="/assets/images/luxury-room.webp" alt="image description">
                                         </a>
                                     </div>
                                 </div>

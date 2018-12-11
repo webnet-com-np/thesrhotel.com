@@ -21,7 +21,7 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
     <link href="{{ BASE_URL}}/css/custom.css " rel="stylesheet" type="text/css">
-    <link href="{{ BASE_URL }}/css/vendor.css" rel="stylesheet" type="text/css">
+    <link href="{{ BASE_URL }}/assets/css/vendor.css" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
 
