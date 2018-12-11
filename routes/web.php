@@ -66,4 +66,9 @@ Route::get('rooms/honeymoon-suite-rooms/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::post('/contact/email','ContactController@send')->name('send_email');
+Route::post('/contact/email','Contact\ContactController@send')->name('send_email');
+
+//bookings reservation bar
+Route::post('/bookings','Reservation\ReservationController@postreserve')->name('bookings');
+Route::get('/bookings','Reservation\ReservationController@getreserve')->name('bookings.getreserve');
+Route::post('/bookings/email','Reservation\ReservationController@mail')->name('reserve_email');
