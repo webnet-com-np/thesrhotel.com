@@ -248,7 +248,10 @@
                     <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="300">
                         <div class="text-box">
                             <h1 class="maroon-text">our restaurants</h1>
-                            <p>Select among Fine dining, Bar and open terrace for a complete restaurant experience </p>
+                            <p>Enjoy Unique, yet magnificent dining experience at our restaurants. Whether you’re viewing the chure ranges, or the magnificent terai plains while sipping a refreshing cocktail or sharing an authentic Nepali meal with friends, your time spent at any of our 2 on-site restaurants at The SR Hotel is sure to be memorable.
+                            </p>
+                            <p>Start your day with a hearty Super Breakfast from our Cafe or a casual lunch in a fine dining experience in Lette Vansa Ghar, will make your way to Neptunes. You can plan a special evening at One Square Lounge. While there are many bars and lounges in Butwal, this is the first time you will experience an entirely different environment here at One Square Lounge in all Butwal and well as Bhairahawa.
+                            </p>
                             <a href="restaurant.php" class="btn btn-default">Read More</a>
                         </div>
                     </div>
@@ -261,10 +264,11 @@
             </div>
         </section>
         <!-- our news -->
-        <section class="news container b-padding">
+        <section class="home-rooms news container b-padding">
             <div class="row">
                 <header class="header col-xs-12 general-padding">
                     <h1 class="maroon-text">our Rooms</h1>
+                    <p>Equipped with 32 well furnished and spacious rooms wherein each room enjoys a beautiful view. The Hotel has 3 Suite,  3 Deluxe Luxury & 26 Standard rooms spread out on 3 floors.</p>
                 </header>
             </div>
             <div class="row">

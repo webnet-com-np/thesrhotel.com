@@ -21,3 +21,6 @@ div#guest-modal {
 #guest-modal .guest-modal-select {
     float: right;
 }
+.home-rooms .header h1 {
+    margin: 0 0 30px;
+}
