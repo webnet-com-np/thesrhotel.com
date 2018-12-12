@@ -161,12 +161,12 @@
                     </div>
                     <div class="col-sm-6 animate sr-hotel-animate" data-anim-type="fadeInUp" data-anim-delay="600">
                         <div class="row">
-                            <div class="col-md-4 sr-hotel-popup-img">
-                                <img class="lazy" src="" data-src="/assets/images/circular-image.webp" alt="" style="border-radius: 50%">
-                            </div>
+                            {{--<div class="col-md-4 sr-hotel-popup-img">--}}
+                                {{--<img class="lazy" src="" data-src="/assets/images/circular-image.webp" alt="" style="border-radius: 50%">--}}
+                            {{--</div>--}}
                             <div class="col-md-8 sr-hotel-background-img">
                                 <div class="image-frame">
-                                    <img class="lazy" src="" data-src="/assets/images/restro-background.webp" alt="image description">
+                                    <img class="lazy" src="" data-src="/assets/images/welcome_img.webp" alt="image description">
                                 </div>
                             </div>
                         </div>

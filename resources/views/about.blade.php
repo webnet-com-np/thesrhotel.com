@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="banner"><img src="{{BASE_URL}}/assets/images/srhotel-aboutus-banner.jpg" alt="banner"></div>
+    <div class="banner"><img src="{{BASE_URL}}/assets/images/srhotel-aboutus-banner.webp" alt="banner"></div>
     <!-- Navigation -->
     <div class="navigation-bar">
         <div class="container">
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="600">
-                    <div class="image-frame"><img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/first_floor_lobby.jpg" alt="image description"></div>
+                    <div class="image-frame"><img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/first_floor_lobby.webp" alt="image description"></div>
                 </div>
             </div>
         </section>
@@ -68,7 +68,7 @@
 
         <!-- Services block -->
         <section class="services-block">
-            <div class="image-frame" style="background-image: url({{BASE_URL}}/assets/images/reception3.jpg);">
+            <div class="image-frame" style="background-image: url({{BASE_URL}}/assets/images/reception3.webp);">
 
             </div>
             <div class="container-fluid">
@@ -98,7 +98,7 @@
             </div>
         </section>
         <!-- our team -->
-        <section class="our-team" style="background-image: url({{BASE_URL}}/assets/images/pattern.jpg);">
+        <section class="our-team" style="background-image: url({{BASE_URL}}/assets/images/pattern.webp);">
             <div class="container general-padding">
                 <div class="row">
                     <header class="header col-xs-12 general-padding">
@@ -112,50 +112,6 @@
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
-                                    <!--<div class="col-xs-4">-->
-                                    <!--<div class="box">-->
-                                    <!--<div class="info-box">-->
-                                    <!--<div class="holder">-->
-                                    <!--<div class="frame">-->
-                                    <!--<h2>Elissa Pompil</h2>-->
-                                    <!--<span class="sub-heading">Maid</span>-->
-                                    <!--<ul class="list-inline social-networks">-->
-                                    <!--<li><a href="#"><span class="icon-facebook"></span></a></li>-->
-                                    <!--<li><a href="#"><span class="icon-twitter"></span></a></li>-->
-                                    <!--<li><a href="#"><span class="icon-youtube"></span></a></li>-->
-                                    <!--<li><a href="#"><span class="icon-instagram"></span></a></li>-->
-                                    <!--<li><a href="#"><span class="icon-google"></span></a></li>-->
-                                    <!--</ul>-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-                                    <!--<div class="image-frame">-->
-                                    <!--<img src="images/thumb-01.jpg" alt="image description">-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-                                    <!--<div class="col-xs-4">-->
-                                    <!--<div class="box">-->
-                                    <!--<div class="info-box">-->
-                                    <!--<div class="holder">-->
-                                    <!--<div class="frame">-->
-                                    <!--<h2>Elissa Pompil</h2>-->
-                                    <!--<span class="sub-heading">Maid</span>-->
-                                    <!--<ul class="list-inline social-networks">-->
-                                    <!--<li><a href="#"><span class="icon-facebook"></span></a></li>-->
-                                    <!--<li><a href="#"><span class="icon-twitter"></span></a></li>-->
-                                    <!--<li><a href="#"><span class="icon-youtube"></span></a></li>-->
-                                    <!--<li><a href="#"><span class="icon-instagram"></span></a></li>-->
-                                    <!--<li><a href="#"><span class="icon-google"></span></a></li>-->
-                                    <!--</ul>-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-                                    <!--<div class="image-frame">-->
-                                    <!--<img src="images/thumb-02.jpg" alt="image description">-->
-                                    <!--</div>-->
-                                    <!--</div>-->
-                                    <!--</div>-->
                                     <div class="col-xs-12">
                                         <div class="box">
                                             <div class="info-box">
@@ -174,152 +130,13 @@
                                                 </div>
                                             </div>
                                             <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/wisdomlumbinicollege.jpg" alt="image description">
+                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/wisdomlumbinicollege.webp" alt="image description">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!--<div class="item">-->
-                            <!--<div class="row">-->
-                            <!--<div class="col-xs-4">-->
-                            <!--<div class="box">-->
-                            <!--<div class="info-box">-->
-                            <!--<div class="holder">-->
-                            <!--<div class="frame">-->
-                            <!--<h2>Elissa Pompil</h2>-->
-                            <!--<span class="sub-heading">Maid</span>-->
-                            <!--<ul class="list-inline social-networks">-->
-                            <!--<li><a href="#"><span class="icon-facebook"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-twitter"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-youtube"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-instagram"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-google"></span></a></li>-->
-                            <!--</ul>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="image-frame">-->
-                            <!--<img src="images/thumb-01.jpg" alt="image description">-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col-xs-4">-->
-                            <!--<div class="box">-->
-                            <!--<div class="info-box">-->
-                            <!--<div class="holder">-->
-                            <!--<div class="frame">-->
-                            <!--<h2>Elissa Pompil</h2>-->
-                            <!--<span class="sub-heading">Maid</span>-->
-                            <!--<ul class="list-inline social-networks">-->
-                            <!--<li><a href="#"><span class="icon-facebook"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-twitter"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-youtube"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-instagram"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-google"></span></a></li>-->
-                            <!--</ul>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="image-frame">-->
-                            <!--<img src="images/thumb-02.jpg" alt="image description">-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col-xs-4">-->
-                            <!--<div class="box">-->
-                            <!--<div class="info-box">-->
-                            <!--<div class="holder">-->
-                            <!--<div class="frame">-->
-                            <!--<h2>Elissa Pompil</h2>-->
-                            <!--<span class="sub-heading">Maid</span>-->
-                            <!--<ul class="list-inline social-networks">-->
-                            <!--<li><a href="#"><span class="icon-facebook"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-twitter"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-youtube"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-instagram"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-google"></span></a></li>-->
-                            <!--</ul>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="image-frame">-->
-                            <!--<img src="images/thumb-03.jpg" alt="image description">-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="item">-->
-                            <!--<div class="row">-->
-                            <!--<div class="col-xs-4">-->
-                            <!--<div class="box">-->
-                            <!--<div class="info-box">-->
-                            <!--<div class="holder">-->
-                            <!--<div class="frame">-->
-                            <!--<h2>Elissa Pompil</h2>-->
-                            <!--<span class="sub-heading">Maid</span>-->
-                            <!--<ul class="list-inline social-networks">-->
-                            <!--<li><a href="#"><span class="icon-facebook"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-twitter"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-youtube"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-instagram"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-google"></span></a></li>-->
-                            <!--</ul>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="image-frame">-->
-                            <!--<img src="images/thumb-01.jpg" alt="image description">-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col-xs-4">-->
-                            <!--<div class="box">-->
-                            <!--<div class="info-box">-->
-                            <!--<div class="holder">-->
-                            <!--<div class="frame">-->
-                            <!--<h2>Elissa Pompil</h2>-->
-                            <!--<span class="sub-heading">Maid</span>-->
-                            <!--<ul class="list-inline social-networks">-->
-                            <!--<li><a href="#"><span class="icon-facebook"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-twitter"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-youtube"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-instagram"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-google"></span></a></li>-->
-                            <!--</ul>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="image-frame">-->
-                            <!--<img src="images/thumb-02.jpg" alt="image description">-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col-xs-4">-->
-                            <!--<div class="box">-->
-                            <!--<div class="info-box">-->
-                            <!--<div class="holder">-->
-                            <!--<div class="frame">-->
-                            <!--<h2>Elissa Pompil</h2>-->
-                            <!--<span class="sub-heading">Maid</span>-->
-                            <!--<ul class="list-inline social-networks">-->
-                            <!--<li><a href="#"><span class="icon-facebook"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-twitter"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-youtube"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-instagram"></span></a></li>-->
-                            <!--<li><a href="#"><span class="icon-google"></span></a></li>-->
-                            <!--</ul>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="image-frame">-->
-                            <!--<img src="images/thumb-03.jpg" alt="image description">-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
-                            <!--</div>-->
+
                         </div>
                         <!-- carousel-indicators -->
                         <ol class="carousel-indicators">
