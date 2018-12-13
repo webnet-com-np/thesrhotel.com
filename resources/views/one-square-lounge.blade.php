@@ -299,5 +299,52 @@
                 {{--</div>--}}
             {{--</div>--}}
         {{--</section>--}}
+        <section class="gallery-block container b-padding">
+            <div class="row">
+                <header class="col-xs-12">
+                    <h1 class="maroon-text">gallery</h1>
+                </header>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- carousel -->
+                    <div id="carousel-example-generic" class="carousel image-gallery slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/one-square-1.JPG" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/one-square-1.JPG" alt="image description"></a>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/one-square-2.jpg" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/one-square-2.jpg" alt="image description"></a>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/one-square-3.jpg" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/one-square-3.jpg" alt="image description"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/one-square-4.jpg" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/one-square-4.jpg" alt="image description"></a>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/one-square-5.jpg" class="fancybox"><img src="{{ BASE_URL }}/assets/images/one-square-5.jpg" alt="image description"></a>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/one-square-6.jpg" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/one-square-6.jpg" alt="image description"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"></a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 @endsection

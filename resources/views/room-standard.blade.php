@@ -27,7 +27,7 @@
                 <div class="row">
                     <div class="col-sm-6 text-block pull-right animate" data-anim-type="fadeInRight" data-anim-delay="300">
                         <h1 class="yellow-text">Our room - Standard </h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>We have 26 standard rooms with 6 twin bedrooms, 1 triple bed room and 19 double bed rooms. All the rooms are equipped with AC, attached bathrooms and free Wifi. This is ideal for travelers and corporate clients.</p>
                         <div class="row">
                             <ul class="list-unstyled list col-sm-6">
                                 <li>LED 32"</li>

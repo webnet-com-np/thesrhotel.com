@@ -143,7 +143,7 @@
     <!-- contain main informative part of the site -->
     <main id="main">
         <!--section resturants-->
-        <section class="restaurant" style="background-image: url({{ BASE_URL }}/assets/images/patternwebp);">
+        <section class="restaurant" style="background-image: url({{ BASE_URL }}/assets/images/pattern.webp);">
             <div class="container general-padding">
                 <div class="row">
                     <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="300">
@@ -287,9 +287,8 @@
                                 <div class="col-sm-4 col">
                                     <div class="carousel-caption">
                                         <h2 class="yellow-text">Suite Room</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        <a href="{{ BASE_URL }}/assets/room-suite.php" class="btn btn-default">read more</a>
+                                        <p>We have 3 types of Suite rooms, Honeymoon Suite room, Executive Suite Room and Presidential Suite room for VIP guests and couples. Depeding upon guests’ requirements, we have bathtub, shower enclosure, living hall. These rooms come with larger LED TVs, bed and mini bar.</p>
+                                        <a href="{{route('roomsuite')}}" class="btn btn-default">read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -304,9 +303,8 @@
                                 <div class="col-sm-4 col">
                                     <div class="carousel-caption">
                                         <h2 class="yellow-text">Deluxe Room</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        <a href="{{ BASE_URL }}/assets/room-deluxe.php" class="btn btn-default">read more</a>
+                                        <p>We have 3 deluxe rooms with double window view facing east and south with pleasant view of plain lands and 6 lane highway. These rooms come with additional amenities such.as mini bar fridge, bigger mattress etc.</p>
+                                        <a href="{{route('roomdeluxe')}}" class="btn btn-default">read more</a>
                                     </div>
                                 </div>
                             </div>
@@ -321,29 +319,12 @@
                                 <div class="col-sm-4 col">
                                     <div class="carousel-caption">
                                         <h2 class="yellow-text">standard Room</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        <a href="{{ BASE_URL }}/assets/room-standard.php" class="btn btn-default">read more</a>
+                                        <p>We have 26 standard rooms with 6 twin bedrooms, 1 triple bed room and 19 double bed rooms. All the rooms are equipped with AC, attached bathrooms and free Wifi. This is ideal for travelers and corporate clients.</p>
+                                        <a href="{{route('roomstandard')}}" class="btn btn-default">read more</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item">
-                                <div class="col-sm-8 col">
-                                    <div class="image-holder">
-                                        <a href="{{ BASE_URL }}/assets/images/luxury-room.webp" class="fancybox">
-                                            <img class="lazy" src="" data-src="/assets/images/luxury-room.webp" alt="image description">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 col">
-                                    <div class="carousel-caption">
-                                        <h2 class="yellow-text">honeymoon suite</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                        <a href="{{ BASE_URL }}/assets/room-honeymoon-suite.php" class="btn btn-default">read more</a>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                                                                                                                    <!-- Indicators -->
                         <div class="indicators col-sm-4">
@@ -351,7 +332,6 @@
                                 <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
                                 <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
-                                <li data-target="#carousel-example-generic2" data-slide-to="3"></li>
                             </ol>
                         </div>
                     </div>
