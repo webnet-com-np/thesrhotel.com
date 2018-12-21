@@ -72,3 +72,5 @@ Route::post('/contact/email','Contact\ContactController@send')->name('send_email
 Route::post('/bookings','Reservation\ReservationController@postreserve')->name('bookings');
 Route::get('/bookings','Reservation\ReservationController@getreserve')->name('bookings.getreserve');
 Route::post('/bookings/email','Reservation\ReservationController@mail')->name('reserve_email');
+
+

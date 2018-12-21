@@ -36,6 +36,10 @@
                                 <label for="phone">*Phone</label>
                                 <input id="phone" type="tel" class="form-control" name="phone"  maxlength="10"  required>
                             </div>
+                            <div class="form-group">
+                                <label for="comment">Message</label>
+                                <textarea id="comment"  name="message" class="form-control" rows="8" name="comment" cols="45" required></textarea>
+                            </div>
                             <input class="btn btn-default" type="submit" value="Reserve">
                         </form>
 
