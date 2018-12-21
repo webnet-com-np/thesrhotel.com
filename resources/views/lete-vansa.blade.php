@@ -50,252 +50,299 @@
 
         </section>
         <!-- menu section -->
-        <section class="menu-section restaurant-menus general-padding container">
+        {{--<section class="menu-section restaurant-menus general-padding container">--}}
+            {{--<div class="row">--}}
+                {{--<header class="col-xs-12">--}}
+                    {{--<h1>Taste our delicious dishes</h1>--}}
+                {{--</header>--}}
+            {{--</div>--}}
+            {{--<div class="row">--}}
+                {{--<!-- carousel -->--}}
+                {{--<div id="carousel-example-generic" class="carousel menu-carousel slide" data-ride="carousel">--}}
+                    {{--<!-- Wrapper for slides -->--}}
+                    {{--<div class="carousel-inner">--}}
+                        {{--<div class="item active">--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<ul class="list-unstyled menu-list">--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>MO:MO</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$12</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$45</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$23</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<ul class="list-unstyled menu-list">--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$15</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$87</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$24</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="item">--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<ul class="list-unstyled menu-list">--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$12</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$45</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$23</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<ul class="list-unstyled menu-list">--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$15</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$87</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$24</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                        {{--<div class="item">--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<ul class="list-unstyled menu-list">--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$12</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$45</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$23</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                            {{--<div class="col-sm-6">--}}
+                                {{--<ul class="list-unstyled menu-list">--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$15</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$87</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                    {{--<li>--}}
+                                        {{--<a href="#">--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>--}}
+                                            {{--<div class="text">--}}
+                                                {{--<h2>Wellfleet oysters</h2>--}}
+                                                {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="price">$24</div>--}}
+                                        {{--</a>--}}
+                                    {{--</li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<!-- carousel-indicators -->--}}
+                    {{--<ol class="carousel-indicators">--}}
+                        {{--<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>--}}
+                        {{--<li data-target="#carousel-example-generic" data-slide-to="1"></li>--}}
+                        {{--<li data-target="#carousel-example-generic" data-slide-to="2"></li>--}}
+                    {{--</ol>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</section>--}}
+        <section class="gallery-block container b-padding">
             <div class="row">
                 <header class="col-xs-12">
-                    <h1>Taste our delicious dishes</h1>
+                    <h1 class="maroon-text">gallery</h1>
                 </header>
             </div>
             <div class="row">
-                <!-- carousel -->
-                <div id="carousel-example-generic" class="carousel menu-carousel slide" data-ride="carousel">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <div class="col-sm-6">
-                                <ul class="list-unstyled menu-list">
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>MO:MO</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$12</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$45</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$23</div>
-                                        </a>
-                                    </li>
-                                </ul>
+                <div class="col-xs-12">
+                    <!-- carousel -->
+                    <div id="carousel-example-generic" class="carousel image-gallery slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item  active">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/one-square-1.webp" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/lete-vansa-1.webp" alt="image description"></a>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/lete-vansa-2.webp" class="fancybox"><img src="{{ BASE_URL }}/assets/images/lete-vansa-2.webp" alt="image description"></a>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/lete-vansa-3.webp" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/lete-vansa-3.webp" alt="image description"></a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-sm-6">
-                                <ul class="list-unstyled menu-list">
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$15</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$87</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$24</div>
-                                        </a>
-                                    </li>
-                                </ul>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/lete-vansa-1.webp" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/lete-vansa-1.webp" alt="image description"></a>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/one-square-2.webp" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/one-square-2.webp" alt="image description"></a>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <a href="{{ BASE_URL }}/assets/images/one-square-3.webp" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/one-square-3.webp" alt="image description"></a>
+                                    </div>
+                                </div>
                             </div>
+
                         </div>
-                        <div class="item">
-                            <div class="col-sm-6">
-                                <ul class="list-unstyled menu-list">
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$12</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$45</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$23</div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-6">
-                                <ul class="list-unstyled menu-list">
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$15</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$87</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$24</div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-sm-6">
-                                <ul class="list-unstyled menu-list">
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-01.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$12</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-02.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$45</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-03.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$23</div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-6">
-                                <ul class="list-unstyled menu-list">
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-04.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$15</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-05.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$87</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/img-06.jpg" alt="image description"></div>
-                                            <div class="text">
-                                                <h2>Wellfleet oysters</h2>
-                                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                            <div class="price">$24</div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"></a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"></a>
                     </div>
-                    <!-- carousel-indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
                 </div>
             </div>
         </section>

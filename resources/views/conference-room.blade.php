@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="banner"><img src="{{BASE_URL}}/assets/images/srhotel-aboutus-banner.jpg" alt="banner"></div>
+    <div class="banner"><img src="{{BASE_URL}}/assets/images/srhotel-aboutus-banner.webp" alt="banner"></div>
     <!-- Navigation -->
     @include('bookings.reservation-bar')
     {{--<div class="navigation-bar">--}}
@@ -42,7 +42,7 @@
                                 <li><a href="#"><span class="icon-google"></span></a></li>
                             </ul>
                         </div>
-                        <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/conference-hall-1.jpg" alt="image description">
+                        <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/buffet.webp" alt="image description">
                     </div>
                     <div class="info-bar">
                         <div class="holder">
@@ -60,7 +60,7 @@
                 <article class="col-sm-4 info-block animate" data-anim-type="fadeInUp" data-anim-delay="600">
                     <div class="image-frame">
                         <div class="info-frame">
-                            <a href="{{BASE_URL}}/assets/images/img13.jpg" class="fancybox magnify"></a>
+                            <a href="{{BASE_URL}}/assets/images/buffet.webp" class="fancybox magnify"></a>
                             <ul class="list-inline social-networks">
                                 <li><a href="#"><span class="icon-facebook"></span></a></li>
                                 <li><a href="#"><span class="icon-twitter"></span></a></li>
@@ -69,7 +69,7 @@
                                 <li><a href="#"><span class="icon-google"></span></a></li>
                             </ul>
                         </div>
-                        <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/conference-hall-2.jpg" alt="image description">
+                        <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/buffet.webp" alt="image description">
                     </div>
                     <div class="info-bar">
                         <div class="holder">
@@ -87,7 +87,7 @@
                 <article class="col-sm-4 info-block animate" data-anim-type="fadeInUp" data-anim-delay="900">
                     <div class="image-frame">
                         <div class="info-frame">
-                            <a href="{{BASE_URL}}/assets/images/img13.jpg" class="fancybox magnify" ></a>
+                            <a href="{{BASE_URL}}/assets/images/buffet.webp" class="fancybox magnify" ></a>
                             <ul class="list-inline social-networks">
                                 <li><a href="#"><span class="icon-facebook"></span></a></li>
                                 <li><a href="#"><span class="icon-twitter"></span></a></li>
@@ -96,7 +96,7 @@
                                 <li><a href="#"><span class="icon-google"></span></a></li>
                             </ul>
                         </div>
-                        <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/conference-hall-2.jpg" alt="image description">
+                        <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/buffet.webp" alt="image description">
                     </div>
                     <div class="info-bar">
                         <div class="holder">
@@ -228,8 +228,8 @@
                                 <div class="row">
                                     <div class="col-sm-8 col">
                                         <blockquote>
-                                            <cite><span>Janice</span>, Italy</cite>
-                                            <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</q>
+                                            <cite><span>Enjoyed my stay</span>, Rupandehi</cite>
+                                            <q>Really enjoyed the amenities and the staff is all so kind and service oriented - very centrally located and convenient for dining, shopping and tours. Beautiful gardens and relaxing lounge as well as a wide variety of food options - the best hotel service I have encountered anywhere!</q>
                                         </blockquote>
                                     </div>
                                     <div class="col-sm-4 col">

@@ -29,7 +29,7 @@
                 <div class="row">
                     <div class="col-sm-6 text-block pull-right animate" data-anim-type="fadeInRight" data-anim-delay="300">
                         <h1 class="yellow-text">Our room - deluxe</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>We have 3 deluxe rooms with double window view facing east and south with pleasant view of plain lands and 6 lane highway. These rooms come with additional amenities such.as mini bar fridge, bigger mattress etc.</p>
                         <div class="row">
                             <ul class="list-unstyled list col-sm-6">
                                 <li>LED TVs 32"</li>
