@@ -1,29 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
     <div class="banner"><img src="{{BASE_URL}}/assets/images/srhotel-aboutus-banner.jpg" alt="banner"></div>
     @include('bookings.reservation-bar')
-=======
-    <div class="banner"><img src="{{BASE_URL}}/assets/images/srhotel-aboutus-banner.webp" alt="banner"></div>
-    <!-- Navigation -->
-    <div class="navigation-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-7">
-                    <ol class="breadcrumb">
-                        <li><a href="{{ route('index') }}">Home</a></li>
-                        <li class="active">About us</li>
-                    </ol>
-                </div>
-                <div class="col-xs-5">
-                    <a href="#" class="link">book a room</a>
-                </div>
-            </div>
-        </div>
-    </div>
->>>>>>> 87200501ecfa7f330a322738b66861cd9fe9a7f9
-    <!-- contain main informative part of the site -->
+
     <main id="main">
         <!-- about us section -->
         <section class="about-us container general-padding">
