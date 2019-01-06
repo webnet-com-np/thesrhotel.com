@@ -244,8 +244,10 @@
                                 <div class="row">
                                     <div class="col-sm-8 col">
                                         <blockquote>
-                                            <cite><span>Rachel</span>, Miami</cite>
-                                            <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</q>
+                                            <cite><span>Excellent Location & Stay</span>, Kathmandu</cite>
+                                            <q>
+                                               Visited lumbini on business tour & stayed in this hotel. Has a flat TV,Internet facility and all such amenities in the room. Garden facing rooms have excellent view.Excellent experience.
+                                               </q>
                                         </blockquote>
                                     </div>
                                     <div class="col-sm-4 col">
@@ -258,78 +260,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="col-xs-6">
-                                <div class="row">
-                                    <div class="col-sm-8 col">
-                                        <blockquote>
-                                            <cite><span>Janice</span>, Italy</cite>
-                                            <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</q>
-                                        </blockquote>
-                                    </div>
-                                    <div class="col-sm-4 col">
-                                        <div class="image-frame">
-                                            <div class="image-holder">
-                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/thumb-12.jpg" alt="image description">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="row">
-                                    <div class="col-sm-8 col">
-                                        <blockquote>
-                                            <cite><span>Rachel</span>, Miami</cite>
-                                            <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</q>
-                                        </blockquote>
-                                    </div>
-                                    <div class="col-sm-4 col">
-                                        <div class="image-frame">
-                                            <div class="image-holder">
-                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/thumb-13.jpg" alt="image description">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="col-xs-6">
-                                <div class="row">
-                                    <div class="col-sm-8 col">
-                                        <blockquote>
-                                            <cite><span>Janice</span>, Italy</cite>
-                                            <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</q>
-                                        </blockquote>
-                                    </div>
-                                    <div class="col-sm-4 col">
-                                        <div class="image-frame">
-                                            <div class="image-holder">
-                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/thumb-12.jpg" alt="image description">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="row">
-                                    <div class="col-sm-8 col">
-                                        <blockquote>
-                                            <cite><span>Rachel</span>, Miami</cite>
-                                            <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</q>
-                                        </blockquote>
-                                    </div>
-                                    <div class="col-sm-4 col">
-                                        <div class="image-frame">
-                                            <div class="image-holder">
-                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/thumb-13.jpg" alt="image description">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                     <!-- carousel-indicators -->
                     <ol class="carousel-indicators">

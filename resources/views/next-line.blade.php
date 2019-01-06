@@ -46,37 +46,7 @@
         </section>
         <section class="wedding-photographs general-padding">
             <div class="container wedding-photography-wrapper">
-                <div class="row">
-                    <div class="wedding-pictures">
-                        <img src="{{ BASE_URL  }}/assets/images/wedding-hall-3.jpg" alt="">
-                    </div>
-                    <div class="wedding-pictures">
-                        <img src="{{ BASE_URL  }}/assets/images/wedding-hall-2.jpg" alt="">
-                    </div>
-                    <div class="wedding-pictures">
-                        <img src="{{ BASE_URL  }}/assets/images/wedding-hall-2.jpg" alt="">
-                    </div>
-                    <div class="wedding-pictures">
-                        <img src="{{ BASE_URL  }}/assets/images/wedding-hall-6.jpg" alt="">
-                    </div>
-                    <div class="wedding-pictures">
-                        <img src="{{ BASE_URL  }}/assets/images/wedding-hall-1.jpg" alt="">
-                    </div>
-                    <div class="wedding-pictures">
-                        <img src="{{ BASE_URL  }}/assets/images/wedding-hall-4.jpg" alt="">
-                    </div>
-                    <div class="col-md-6" style="background: url({{ BASE_URL  }}/assets/images/wedding-hall-4.jpg) no-repeat;height: 400px">
-                        <img src="{{ BASE_URL  }}/assets/images/wedding-hall-2.jpg" alt="">
-                    </div>
-                    <img src="{{ BASE_URL  }}/assets/images/wedding-hall-3.jpg" alt="">
-                    <img src="{{ BASE_URL  }}/assets/images/wedding-hall-1.jpg" alt="">
-                    <img src="{{ BASE_URL  }}/assets/images/wedding-hall-2.jpg" alt="">
 
-                    <img src="{{ BASE_URL  }}/assets/images/wedding-hall-2.jpg" alt="">
-                    <img src="{{ BASE_URL  }}/assets/images/wedding-hall-4.jpg" alt="">
-                    <img src="{{ BASE_URL  }}/assets/images/wedding-hall-5.jpg" alt="">
-                    <img src="{{ BASE_URL  }}/assets/images/wedding-hall-6.jpg" alt="">
-                </div>
             </div>
         </section>
     </main>

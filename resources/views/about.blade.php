@@ -100,52 +100,52 @@
         <!-- our team -->
         <section class="our-team" style="background-image: url({{BASE_URL}}/assets/images/pattern.webp);">
             <div class="container general-padding">
-                <div class="row">
-                    <header class="header col-xs-12 general-padding">
-                        <h1 class="maroon-text">our partners</h1>
-                    </header>
-                </div>
-                <div class="row sr-hotel-partners">
-                    <!-- carousel -->
-                    <div id="carousel-example-generic" class="carousel team-carousel slide" data-ride="carousel">
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <div class="box">
-                                            <div class="info-box">
-                                                <div class="holder">
-                                                    <div class="frame">
-                                                        <h2>Wisdom Lumbini</h2>
-                                                        <span class="sub-heading">COLLEGE</span>
-                                                        <ul class="list-inline social-networks">
-                                                            <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                                            <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                                            <li><a href="#"><span class="icon-youtube"></span></a></li>
-                                                            <li><a href="#"><span class="icon-instagram"></span></a></li>
-                                                            <li><a href="#"><span class="icon-google"></span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="image-frame">
-                                                <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/wisdomlumbinicollege.webp" alt="image description">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                {{--<div class="row">--}}
+                    {{--<header class="header col-xs-12 general-padding">--}}
+                        {{--<h1 class="maroon-text">our partners</h1>--}}
+                    {{--</header>--}}
+                {{--</div>--}}
+                {{--<div class="row sr-hotel-partners">--}}
+                    {{--<!-- carousel -->--}}
+                    {{--<div id="carousel-example-generic" class="carousel team-carousel slide" data-ride="carousel">--}}
+                        {{--<!-- Wrapper for slides -->--}}
+                        {{--<div class="carousel-inner">--}}
+                            {{--<div class="item active">--}}
+                                {{--<div class="row">--}}
+                                    {{--<div class="col-xs-12">--}}
+                                        {{--<div class="box">--}}
+                                            {{--<div class="info-box">--}}
+                                                {{--<div class="holder">--}}
+                                                    {{--<div class="frame">--}}
+                                                        {{--<h2>Wisdom Lumbini</h2>--}}
+                                                        {{--<span class="sub-heading">COLLEGE</span>--}}
+                                                        {{--<ul class="list-inline social-networks">--}}
+                                                            {{--<li><a href="#"><span class="icon-facebook"></span></a></li>--}}
+                                                            {{--<li><a href="#"><span class="icon-twitter"></span></a></li>--}}
+                                                            {{--<li><a href="#"><span class="icon-youtube"></span></a></li>--}}
+                                                            {{--<li><a href="#"><span class="icon-instagram"></span></a></li>--}}
+                                                            {{--<li><a href="#"><span class="icon-google"></span></a></li>--}}
+                                                        {{--</ul>--}}
+                                                    {{--</div>--}}
+                                                {{--</div>--}}
+                                            {{--</div>--}}
+                                            {{--<div class="image-frame">--}}
+                                                {{--<img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/wisdomlumbinicollege.webp" alt="image description">--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
 
-                        </div>
-                        <!-- carousel-indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
-                            <!--<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
-                        </ol>
-                    </div>
-                </div>
+                        {{--</div>--}}
+                        {{--<!-- carousel-indicators -->--}}
+                        {{--<ol class="carousel-indicators">--}}
+                            {{--<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>--}}
+                            {{--<!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>-->--}}
+                            {{--<!--<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->--}}
+                        {{--</ol>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
             </div>
         </section>
     </main>
