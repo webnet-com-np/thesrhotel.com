@@ -34,6 +34,7 @@ class Reservation extends Mailable
 	        	'phone'=>$request->phone,
 		        'name'=>$request->full_name,
 		        'email'=>$request->email_from,
+	            'message'=>$request->message,
 	            'arrival_date' => session('booking.arrival_date'),
 		        'departure_date' => session('booking.departure_date'),
 		        'guest_numbers' => session('booking.guest_numbers'),

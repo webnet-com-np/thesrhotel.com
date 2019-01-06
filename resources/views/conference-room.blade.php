@@ -3,21 +3,22 @@
 @section('content')
     <div class="banner"><img src="{{BASE_URL}}/assets/images/srhotel-aboutus-banner.webp" alt="banner"></div>
     <!-- Navigation -->
-    <div class="navigation-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-7">
-                    <ol class="breadcrumb">
-                        <li><a href="{{ route('index') }}">Home</a></li>
-                        <li class="active">conference room</li>
-                    </ol>
-                </div>
-                <div class="col-xs-5">
-                    <a href="#" class="link">book a room</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('bookings.reservation-bar')
+    {{--<div class="navigation-bar">--}}
+        {{--<div class="container">--}}
+            {{--<div class="row">--}}
+                {{--<div class="col-xs-7">--}}
+                    {{--<ol class="breadcrumb">--}}
+                        {{--<li><a href="{{ route('index') }}">Home</a></li>--}}
+                        {{--<li class="active">conference room</li>--}}
+                    {{--</ol>--}}
+                {{--</div>--}}
+                {{--<div class="col-xs-5">--}}
+                    {{--<a href="#" class="link">book a room</a>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
     <!-- contain main informative part of the site -->
     <main id="main">
         <!-- conference room -->

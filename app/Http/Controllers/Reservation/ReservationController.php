@@ -13,7 +13,7 @@ class ReservationController extends Controller
     //stores the reservation bar infomation from home page to session
 	public function postreserve(Request $request){
 
-		session()->put('booking',[
+		$reservation_info = [
 
 			'arrival_date' => $request->arrive_date,
 			'departure_date' => $request->departure_date,
@@ -21,12 +21,14 @@ class ReservationController extends Controller
 			'children' => $request->children,
 			'adult' => $request->adult,
 			'room_type' => $request->room_type
-		]);
-		return view('bookings.guest-info');
+		];
+		session()->put('booking',$reservation_info);
+		return view('bookings.guest-info',$reservation_info);
 	}
 
+
 	public function getreserve(){
-		return view('bookings.guest-info');
+		return redirect(route('index'));
 	}
 	//sends email from guest-info for reservation
 

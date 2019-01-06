@@ -37,3 +37,35 @@
         $("img.lazy").Lazy();
     });
 </script>
+
+<script>
+    $(document).click(function (e) {
+        if (!$(e.target).is('.guest-modal ,.guest-modal *')) {
+            $('.collapse').collapse('hide');
+        }
+    });
+
+    var updateField = {
+        updateGuest : function(child,adult){
+            var resultChild,resultAdult;
+            if( child > 1){
+                child = child +' ' +'Children';
+            }else{
+                child = child + ' ' + 'Child';
+            }
+            if( adult > 1){
+                adult = adult + ' ' +'Adults';
+            }else{
+                adult = adult + ' ' + 'Adult';
+            }
+            $('#guest-numbers'). val(adult + ' '+ child );
+        }
+    }
+
+    $('#child-num, #adult-num').on('change', function () {
+        updateField.updateGuest($('#child-num').val(),$('#adult-num').val());
+    });
+
+
+
+</script>

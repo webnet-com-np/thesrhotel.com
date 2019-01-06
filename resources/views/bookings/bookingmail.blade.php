@@ -11,6 +11,7 @@
     <h4> Full Name: </h4> <p> {{ $name }}</p> <br>
     <h4> Email: </h4> <p> {{ $email }}</p> <br>
     <h4> Phone: </h4> <p> {{ $phone }}</p> <br>
+    <h4> Message: </h4> <p> {{ $message }}</p> <br>
     <h2> Guest Details,Schedule,Rooms  </h2>
     <h4> Arrival Date : </h4> <p> {{ $arrival_date }}</p> <br>
     <h4> Departure Date : </h4> <p> {{ $departure_date }}</p> <br>
