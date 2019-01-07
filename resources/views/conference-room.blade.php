@@ -30,34 +30,7 @@
                 </header>
             </div>
             <div class="row">
-                <article class="col-sm-4 info-block animate" data-anim-type="fadeInUp" data-anim-delay="300">
-                    <div class="image-frame">
-                        <div class="info-frame">
-                            <a href="{{BASE_URL}}/assets/images/img13.jpg" class="fancybox magnify"></a>
-                            <ul class="list-inline social-networks">
-                                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                <li><a href="#"><span class="icon-youtube"></span></a></li>
-                                <li><a href="#"><span class="icon-instagram"></span></a></li>
-                                <li><a href="#"><span class="icon-google"></span></a></li>
-                            </ul>
-                        </div>
-                        <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/buffet.webp" alt="image description">
-                    </div>
-                    <div class="info-bar">
-                        <div class="holder">
-                            <div class="col">
-                                <strong class="title yellow-text">hall 1</strong>
-                            </div>
-                            <div class="col">
-                                <strong class="price">
-                                    <!--<span>$475</span> -->
-                                    35 pax people</strong>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="col-sm-4 info-block animate" data-anim-type="fadeInUp" data-anim-delay="600">
+                <article class="col-sm-push-3 col-sm-6 info-block animate fadeInUp" data-anim-type="fadeInUp" data-anim-delay="600">
                     <div class="image-frame">
                         <div class="info-frame">
                             <a href="{{BASE_URL}}/assets/images/buffet.webp" class="fancybox magnify"></a>
@@ -80,33 +53,6 @@
                                 <strong class="price">
                                     <!--<span>$750</span>-->
                                     35 pax</strong>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="col-sm-4 info-block animate" data-anim-type="fadeInUp" data-anim-delay="900">
-                    <div class="image-frame">
-                        <div class="info-frame">
-                            <a href="{{BASE_URL}}/assets/images/buffet.webp" class="fancybox magnify" ></a>
-                            <ul class="list-inline social-networks">
-                                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                <li><a href="#"><span class="icon-youtube"></span></a></li>
-                                <li><a href="#"><span class="icon-instagram"></span></a></li>
-                                <li><a href="#"><span class="icon-google"></span></a></li>
-                            </ul>
-                        </div>
-                        <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/buffet.webp" alt="image description">
-                    </div>
-                    <div class="info-bar">
-                        <div class="holder">
-                            <div class="col">
-                                <strong class="title">combined hall</strong>
-                            </div>
-                            <div class="col">
-                                <strong class="price">
-                                    <!--<span>$1250</span>-->
-                                    70-100 pax</strong>
                             </div>
                         </div>
                     </div>
