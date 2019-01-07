@@ -27,7 +27,7 @@
                                 <div class="form-group">
                                     <div class="fake-select">
 
-                                        <input class="form-control" name="guest_numbers" data-toggle="collapse" type="text" data-target="#guest-modal" placeholder="2 Adults 1 Child"  id="guest-numbers"  autocomplete="off" required  style="background-color:#353535" >
+                                        <input class="form-control" name="guest_numbers" data-toggle="collapse" type="text" data-target="#guest-modal" placeholder="Please Select"  id="guest-numbers"  autocomplete="off" required  style="background-color:#353535" >
                                         <div class="collapse guest-modal" id="guest-modal">
                                             <form>
                                                 <div class="form-group row">
@@ -70,10 +70,10 @@
                                 <div class="form-group">
                                     <div class="fake-select">
                                         <select name="room_type" required>
-                                            <option value="suite" selected>Suite Room</option>
+                                            {{--<option value="suite" selected>Suite Room</option>--}}
                                             <option value="deluxe">Deluxe Room</option>
                                             <option value="standard">Standard Room</option>
-                                            <option value="honeymoon">Honeymoon Suite Room</option>
+                                            {{--<option value="honeymoon">Honeymoon Suite Room</option>--}}
 
                                         </select>
                                     </div>

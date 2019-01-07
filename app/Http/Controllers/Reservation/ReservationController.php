@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Reservation;
 use App\Mail\Reservation;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 
@@ -15,8 +16,8 @@ class ReservationController extends Controller
 
 		$reservation_info = [
 
-			'arrival_date' => $request->arrive_date,
-			'departure_date' => $request->departure_date,
+			'arrival_date' => Carbon::createFromFormat('d-m-Y',$request->arrive_date),
+			'departure_date' =>Carbon::createFromFormat('d-m-Y',$request->departure_date) ,
 			'guest_numbers' => $request->guest_numbers,
 			'children' => $request->children,
 			'adult' => $request->adult,
