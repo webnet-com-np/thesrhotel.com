@@ -25,23 +25,22 @@
             <div class="contact g-padding">
                     <div class="row">
                         <!-- side bar -->
-                        <aside class="col-md-3 col-sm-4 sidebar">
+
+                        <aside class="col-md-3 col-sm-12 sidebar">
                             <!-- widget -->
                             <section class="widget">
-                                <h1>Your Selection</h1>
+                                <h1>confirmation</h1>
                                 <div class="holder reservation-bar">
-                                    <div class="input-append date"  data-date="Check In" data-date-format="dd-mm-yyyy">
-                                        <input class="form-control" size="16" type="text" value="{{ $arrival_date }}" disabled="disabled">
-                                    </div>
-                                    <div class="input-append date"  data-date="Check Out" data-date-format="dd-mm-yyyy">
-                                        <input class="form-control" size="16" type="text" value="{{ $arrival_date }}" disabled="disabled">
-                                    </div>
-                                    <div class="form-group">
-                                        <input class="form-control" size="16" type="text" value="{{ $guest_numbers }}" disabled="disabled">
-                                    </div>
-                                    <div class="form-group">
-                                        <input class="form-control" size="16" type="text" value="{{ $room_type }}" disabled="disabled">
-                                    </div>
+                                    <ul class="itemsList">
+                                        <li>Arrive date: {{ $arrival_date->format('d M, Y') }}</li>
+                                        <li>Departure: {{ $departure_date->format('d M, Y') }}</li>
+                                        <li>Adult: {{ $adult }}</li>
+                                        <li>Children: {{ $children }}</li>
+                                        <li>Room Type: {{ $room_type }}</li>
+                                        <input type="number" class="form-control" value="1" min="1" >
+
+                                    </ul>
+                                    <strong class="total-price">total: <span>$1410</span></strong>
                                 </div>
                             </section>
                         </aside>
@@ -96,4 +95,8 @@
 
         @include ('layouts.footer')
     </div>
+
+ @push('footer-scripts')
+
+ @endpush
 @endsection
