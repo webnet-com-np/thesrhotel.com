@@ -16,35 +16,49 @@
                         </div>
                     </div>
                 </div>
-                <img src="{{ BASE_URL }}/assets/images/banquet_hall.webp" alt="image description">
+                <img src="{{ BASE_URL }}/assets/images/2000.webp" alt="image description">
             </div>
             <div class="item">
                 <div class="description">
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12">
-                                <h1>
+                                <!-- <h1>
                                     <em>reserve a room to</em><br class="hidden-xs">
-                                    <span>relax yourself</span></h1>
+                                    <span>relax yourself</span></h1> -->
                             </div>
                         </div>
                     </div>
                 </div>
-                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/sr-hotel-slide2.webp" alt="image description">
+                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/2001.webp" alt="image description">
             </div>
             <div class="item">
                 <div class="description">
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12">
-                                <h1>
+                                <!-- <h1>
                                     <em>Next inline</em><br class="hidden-xs">
-                                    <span>swimming pool,Banquet</span></h1>
+                                    <span>swimming pool,Banquet</span></h1> -->
                             </div>
                         </div>
                     </div>
                 </div>
-                <img class="lazy" src="" data-src="{{ BASE_URL .'/assets/images/sr-hotel-slide3.webp' }}" alt="image description">
+                <img class="lazy" src="" data-src="{{ BASE_URL .'/assets/images/2002.webp' }}" alt="image description">
+            </div>
+            <div class="item">
+                <div class="description">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <!-- <h1>
+                                    <em>Next inline</em><br class="hidden-xs">
+                                    <span>swimming pool,Banquet</span></h1> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="lazy" src="" data-src="{{ BASE_URL .'/assets/images/2003.webp' }}" alt="image description">
             </div>
         </div>
         <!-- Controls -->
