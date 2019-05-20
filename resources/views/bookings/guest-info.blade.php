@@ -40,7 +40,7 @@
                                         <input type="number" class="form-control" value="1" min="1" >
 
                                     </ul>
-                                    <strong class="total-price">total: <span>$1410</span></strong>
+                                    <!-- <strong class="total-price">total: <span>$1410</span></strong> -->
                                 </div>
                             </section>
                         </aside>

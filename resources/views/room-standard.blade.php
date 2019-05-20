@@ -23,7 +23,7 @@
     <main id="main">
         <!-- Room details -->
         <section class="our-room room-type-details">
-            <div class="image-frame" style="background-image: url({{ BASE_URL }}/assets/images/delux-room.jpg);"></div>
+            <div class="image-frame" style="background-image: url({{ BASE_URL }}/assets/images/standard-room.webp);"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 text-block pull-right animate" data-anim-type="fadeInRight" data-anim-delay="300">
@@ -32,25 +32,25 @@
                         <div class="row">
                             <ul class="list-unstyled list col-sm-6">
                                 <li>LED 32"</li>
-                                <li>national and international TV channels</li>
+                                <li>National and International TV Channels</li>
                                 <li>Telephone</li>
-                                <li>premium cosmetics</li>
+                                <li>Premium Cosmetics</li>
                             </ul>
                             <ul class="list-unstyled list col-sm-6">
-                                <li>fluffy cotton bathrobes</li>
-                                <li>towels and cotton sheets</li>
-                                <li>comfortable slippers</li>
-                                <li>hairdryer</li>
+                                <li>Fluffy Cotton Bathrobes</li>
+                                <li>Towels and Cotton Sheets</li>
+                                <li>Comfortable Slippers</li>
+                                <li>Hairdryer</li>
                             </ul>
                         </div>
                         <ul class="list-inline services-list">
-                            <li><span class="icon ico-downtown"></span>Near<br> downtown</li>
-                            <li><span class="icon ico-wifi"></span>free wifi</li>
-                            <li><span class="icon ico-parking"></span>free<br> parking</li>
-                            <li><span class="icon ico-breakfast"></span>Free<br> breackfast</li>
+                            <li><span class="icon ico-downtown"></span>Near<br> Downtown</li>
+                            <li><span class="icon ico-wifi"></span>Free WIFI</li>
+                            <li><span class="icon ico-parking"></span>Free<br> Parking</li>
+                            <li><span class="icon ico-breakfast"></span>Free<br> Breackfast</li>
                             <li><span class="icon ico-mp"></span>23mp</li>
                         </ul>
-                        <a href="#" class="btn btn-default">Book Now</a>
+                        <a href="./contact-us" class="btn btn-default">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -157,26 +157,26 @@
                             <div class="item active">
                                 <div class="row">
                                     <div class="col-xs-4">
-                                        <a href="{{ BASE_URL }}/assets/images/luxury-room.jpg" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/luxury-room.jpg" alt="image description"></a>
+                                        <a href="{{ BASE_URL }}/assets/images/standard-room/1-min.webp" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/standard-room/1-min.webp" alt="image description"></a>
                                     </div>
                                     <div class="col-xs-4">
-                                        <a href="{{ BASE_URL }}/assets/images/luxury-room.jpg" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/luxury-room.jpg" alt="image description"></a>
+                                        <a href="{{ BASE_URL }}/assets/images/standard-room/2-min.webp" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/standard-room/2-min.webp" alt="image description"></a>
                                     </div>
                                     <div class="col-xs-4">
-                                        <a href="{{ BASE_URL }}/assets/images/luxury-room.jpg" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/luxury-room.jpg" alt="image description"></a>
+                                        <a href="{{ BASE_URL }}/assets/images/standard-room/3-min.webp" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/standard-room/3-min.webp" alt="image description"></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="row">
                                     <div class="col-xs-4">
-                                        <a href="{{ BASE_URL }}/assets/images/luxury-room.jpg" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/luxury-room.jpg" alt="image description"></a>
+                                        <a href="{{ BASE_URL }}/assets/images/standard-room/4-min.webp" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/standard-room/4-min.webp" alt="image description"></a>
                                     </div>
                                     <div class="col-xs-4">
-                                        <a href="{{ BASE_URL }}/assets/images/luxury-room.jpg" class="fancybox"><img src="{{ BASE_URL }}/assets/images/luxury-room.jpg" alt="image description"></a>
+                                        <a href="{{ BASE_URL }}/assets/images/standard-room/5-min.webp" class="fancybox"><img src="{{ BASE_URL }}/assets/images/standard-room/5-min.webp" alt="image description"></a>
                                     </div>
                                     <div class="col-xs-4">
-                                        <a href="{{ BASE_URL }}/assets/images/luxury-room.jpg" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/luxury-room.jpg" alt="image description"></a>
+                                        <a href="{{ BASE_URL }}/assets/images/standard-room/1-min.webp" class="fancybox" ><img src="{{ BASE_URL }}/assets/images/standard-room/1-min.webp" alt="image description"></a>
                                     </div>
                                 </div>
                             </div>

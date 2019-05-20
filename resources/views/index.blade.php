@@ -30,7 +30,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/2001.webp" alt="image description">
+                <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/banner/banner-room.webp" alt="image description">
             </div>
             <div class="item">
                 <div class="description">
