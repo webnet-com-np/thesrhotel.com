@@ -84,7 +84,7 @@
                     </div>
                     <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="600">
                         <div class="image-frame">
-                            <img src="{{ BASE_URL }}/assets/images/one_square_lounge.jpg" alt="image description"></div>
+                            <img src="{{ BASE_URL }}/assets/images/one-square.jpg" alt="image description"></div>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                     </div>
                     <div class="col-sm-6 col-sm-pull-6 animate" data-anim-type="fadeInUp" data-anim-delay="600">
                         <div class="image-frame">
-                            <img src="{{ BASE_URL }}/assets/images/lete_vansa.jpg" alt="image description"></div>
+                            <img src="{{ BASE_URL }}/assets/images/lette-vansa.jpg" alt="image description"></div>
                     </div>
 
 

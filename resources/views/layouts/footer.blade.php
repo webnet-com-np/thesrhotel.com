@@ -11,7 +11,7 @@ define("FOOTER_LOADED" , TRUE);
                 <a href="#wrapper" class="go-top">
                     <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
                 </a>
-                <strong class="logo "><a href="index.php"><img src="{{BASE_URL}}/assets/images/footer-logo.png" alt="Hotel"></a></strong>
+                <strong class="logo "><a href=""><img src="{{BASE_URL}}/assets/images/footer-logo.png" alt="Hotel"></a></strong>
 
                 <!-- footer navigation -->
                 <nav class="f-nav col-md-4 col-sm-4 col-xs-6">

@@ -186,7 +186,7 @@
                     </div>
                     <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="600">
                         <div class="image-frame">
-                            <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/restaurant-img.webp" alt="image description">
+                            <img class="lazy" src="" data-src="{{ BASE_URL }}/assets/images/restaurant-home.webp" alt="image description">
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,7 @@
                     <!-- carousel -->
                     <div id="carousel-example-generic2" class="carousel slide news rooms" data-ride="carousel">    <!-- Wrapper for slides -->
                         <div class="carousel-inner">
-                            <div class="item active">
+                            <!-- <div class="item active">
                                 <div class="col-sm-8 col">
                                     <div class="image-holder">
                                         <a href="{{ BASE_URL }}/assets/images/suite-room.webp" class="fancybox">
@@ -220,8 +220,8 @@
                                         <a href="{{route('roomsuite')}}" class="btn btn-default">read more</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="item">
+                            </div> -->
+                            <div class="item active">
                                 <div class="col-sm-8 col">
                                     <div class="image-holder">
                                         <a href="{{ BASE_URL }}/assets/images/delux-room.webp" class="fancybox">
@@ -241,7 +241,7 @@
                                 <div class="col-sm-8 col">
                                     <div class="image-holder">
                                         <a href="{{ BASE_URL }}/assets/images/luxury-room.webp" class="fancybox">
-                                            <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/luxury-room.webp" alt="image description">
+                                            <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/standard-room.webp" alt="image description">
                                         </a>
                                     </div>
                                 </div>
@@ -260,7 +260,7 @@
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+                                <!-- <li data-target="#carousel-example-generic2" data-slide-to="2"></li> -->
                             </ol>
                         </div>
                     </div>
