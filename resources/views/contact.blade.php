@@ -38,7 +38,7 @@
                             <dd>Shankar Tower,Drivertole,Tilottama-1, Rupandehi,Nepal
                             </dd>
                             <dt><span class="icon-phone"></span>Phone:</dt>
-                            <dd><a href="tel:561264">+977-71-561263, 561264
+                            <dd><a href="tel:0097771590502">+977-71-590502, 71590503
                                     <br>+977 9851118056, 9857032539, 9857071422</a></dd>
                             <dt><span class="icon-paperplane"></span>E-MAIL:</dt>
                             <dd><a href="mailto:thesrhotel@gmail.com">thesrhotel@gmail.com</a></dd>

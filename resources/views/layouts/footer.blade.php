@@ -34,8 +34,8 @@ define("FOOTER_LOADED" , TRUE);
                             <span class="address-info">Shankar Tower,Drivertole,<br>Tilottama-1,  Rupandehi,Nepal</span>
                         </div>
                         <div class="contact-detail icon-phone">
-                            <a href="tel:071561263">
-                                <span class="contact-info">+977-71-561263/ 561264, <br>+977 9851118056,9857032539</span></a>
+                            <a href="tel:071590502">
+                                <span class="contact-info">+977-71-590502, 590503, <br>+977 9851118056,9857032539</span></a>
                         </div>
                         <div class="mail-detail icon-paperplane">
                             <a href="mailto:thesrhotel@gmail.com"><span class="mail-info">thesrhotel@gmail.com</span></a>
