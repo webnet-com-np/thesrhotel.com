@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- banner -->
-    <div class="banner"><img src="{{ BASE_URL }}/assets/images/srhotel-aboutus-banner.jpg" alt="banner"></div>
+    <div class="banner"><img src="{{ BASE_URL }}/assets/images/contact-banner.jpg" alt="banner"></div>
     @include('bookings.reservation-bar')
     <!-- Navigation -->
     {{--<div class="navigation-bar">--}}
