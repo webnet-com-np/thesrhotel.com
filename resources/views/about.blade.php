@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="banner"><img src="{{BASE_URL}}/assets/images/srhotel-aboutus-banner.jpg" alt="banner"></div>
+    <div class="banner"><img src="{{BASE_URL}}/assets/images/contact-banner.jpg" alt="banner"></div>
     @include('bookings.reservation-bar')
 
     <main id="main">
@@ -11,7 +11,10 @@
                 <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="300">
                     <div class="text-box">
                         <h1 class="maroon-text">About us</h1>
-                        <p>The SR Hotel provides hospitality services ranging from hotel rooms, restaurants and banquet hall for locals, corporate and tourists. The hotel is located at Shankar Tower, Drivertole, Tilottama-1 in. The main focus will be on customer’s satisfaction through highest level of work standards and care. With its proximity to Indian Border, Lumbini- Birthplace of Lord Buddha, upcoming Gautam Buddha International Airport, it is an access point which connects overall western Nepal, hilly regions towards north and those travelling from and towards eastern Nepal.</p>
+                        <p>
+                            The SR Hotel provides hospitality services ranging from hotel rooms, restaurants and banquet hall for locals, corporate and tourists. The hotel is located at Shankar Tower, Drivertole, Tilottama-1.
+
+                       </p>
                     </div>
                 </div>
                 <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="600">

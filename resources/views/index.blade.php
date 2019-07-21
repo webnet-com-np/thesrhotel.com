@@ -80,12 +80,10 @@
                             <h1 class="animate-title title">Warmest welcome for our guest</h1>
                             <p>Located in the foothills of chure hills and on the southern plains of Terai region of Nepal, The SR Hotel is committed and dedicated to providing you with the best hotel experience you can have while your stay in Nepal. With just 20 Kilometers North from Gautam Buddha Airport, Bhairahawa, and 40 Kilometers North from Lumbini, The SR Hotel is a perfect example of luxury and comfort.</p>
 
-                            <p> Equipped with 31 well furnished and spacious rooms wherein each room enjoys
-                                a beautiful view of the town. The Hotel has 9 Deluxe, 11 Luxury & 2 Honeymoon
-                                Suits spread out on Ground plus 4 Floor levels.
+                            <p> Equipped with 32 well furnished rooms wherein each room enjoys a beautiful view of the town. The Hotel has 26 Deluxe, 3 Superior Deluxe & 3 Suite rooms spread out on 3 floor levels.
 
                             </p>
-                            <a href="#" class="btn btn-default">Book Now</a>
+                            <a href="{{route('bookings')}}" class="btn btn-default">Book Now</a>
                         </div>
                     </div>
                     <div class="col-sm-6 animate sr-hotel-animate" data-anim-type="fadeInUp" data-anim-delay="600">
@@ -179,9 +177,12 @@
                             <h1 class="maroon-text">our restaurants</h1>
                             <p>Enjoy Unique, yet magnificent dining experience at our restaurants. Whether you’re viewing the chure ranges, or the magnificent terai plains while sipping a refreshing cocktail or sharing an authentic Nepali meal with friends, your time spent at any of our 2 on-site restaurants at The SR Hotel is sure to be memorable.
                             </p>
-                            <p>Start your day with a hearty Super Breakfast from our Cafe or a casual lunch in a fine dining experience in Lette Vansa Ghar, will make your way to Neptunes. You can plan a special evening at One Square Lounge. While there are many bars and lounges in Butwal, this is the first time you will experience an entirely different environment here at One Square Lounge in all Butwal and well as Bhairahawa.
+                            <p>
+
+                                Start your day with a hearty Super Breakfast from our Cafe or a casual lunch in a fine dining experience in Lete Vansa, will make your way to Neptunes.
+
                             </p>
-                            <a href="restaurant.php" class="btn btn-default">Read More</a>
+                            <a href="{{route('restaurants')}}" class="btn btn-default">Read More</a>
                         </div>
                     </div>
                     <div class="col-sm-6 animate" data-anim-type="fadeInUp" data-anim-delay="600">
@@ -231,8 +232,8 @@
                                 </div>
                                 <div class="col-sm-4 col">
                                     <div class="carousel-caption">
-                                        <h2 class="yellow-text">Deluxe Room</h2>
-                                        <p>We have 3 deluxe rooms with double window view facing east and south with pleasant view of plain lands and 6 lane highway. These rooms come with additional amenities such.as mini bar fridge, bigger mattress etc.</p>
+                                        <h2 class="yellow-text">Superiotr Deluxe Room</h2>
+                                        <p>We have 3 superior deluxe rooms with with double window view facing east and south with pleasant view of plain lands and 6 lane highway. These rooms come with additional amenities such.as mini bar fridge, bigger mattress etc.</p>
                                         <a href="{{route('roomdeluxe')}}" class="btn btn-default">read more</a>
                                     </div>
                                 </div>

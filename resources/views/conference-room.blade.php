@@ -26,7 +26,7 @@
             <div class="row">
                 <header class="col-md-10 col-sm-12 col-md-offset-1 col-sm-offset-0 header">
                     <h1 class="maroon-text">conference rooms</h1>
-                    <p>We have a seminar hall for party/ meeting bookings. The hall is designed such that it can be divided into two smaller halls as well as combined into one for large functions of up to 100 people.</p>
+                    <p>We have a conference hall for party/ meeting bookings. The hall is designed such that it can be divided into two smaller halls as well as combined into one for large functions of up to 100 people.</p>
                 </header>
             </div>
             <div class="row">
@@ -44,18 +44,18 @@
                         </div>
                         <img class="lazy" src="" data-src="{{BASE_URL}}/assets/images/buffet.webp" alt="image description">
                     </div>
-                    <div class="info-bar">
+                    <!-- <div class="info-bar">
                         <div class="holder">
                             <div class="col">
                                 <strong class="title">hall 2</strong>
                             </div>
                             <div class="col">
                                 <strong class="price">
-                                    <!--<span>$750</span>-->
+                                    <span>$750</span>
                                     35 pax</strong>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </article>
             </div>
         </section>
@@ -66,25 +66,32 @@
                     <div class="box">
                         <div class="icon ico-projector"></div>
                         <h2 class="maroon-text">Projector</h2>
-                        <p>There are two projector available as per event requirement. Please ask our attendants for any assistance.</p>
+                        <p>There are projector and sound system available as per event requirement. Please ask our attendants for any assistance.</p>
                     </div>
                 </div>
                 <div class="col-sm-4 animate" data-anim-type="fadeInUp" data-anim-delay="600">
                     <div class="box">
                         <div class="icon ico-people"></div>
                         <h2 class="maroon-text">up to 100 people</h2>
-                        <p>We can accommodate upto 100 people in our seminar hall.</p>
+                        <p>We can accommodate upto 100 people in our conference hall.</p>
                     </div>
                 </div>
                 <div class="col-sm-4 animate" data-anim-type="fadeInUp" data-anim-delay="900">
                     <div class="box">
-                        <div class="icon ico-breakfast"></div>
+                        <div class="icon ico-wifi"></div>
                         <h2 class="maroon-text">SUPER FAST INTERNET</h2>
                         <p>We have dedicated internet router for the seminar hall for fast downloading and display.</p>
                     </div>
                 </div>
             </div>
         </section>
+        <style type="text/css">
+            .icon.ico-wifi{background:url(./assets/images/sprite_yellow.png) no-repeat -82px -170px;
+    width: 54px;
+    height: 64px;
+    background-size: 1000%;
+            }
+        </style>
         <!-- Services block -->
         <!--<section class="services-block">-->
         <!--	<div class="image-frame" style="background-image: url(./images/image-12.jpg);"></div>-->

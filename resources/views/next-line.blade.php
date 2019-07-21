@@ -25,7 +25,7 @@
             <div class="row">
                 <header class="col-md-10 col-sm-12 col-md-offset-1 col-sm-offset-0 header">
                     <h1 class="maroon-text">Banquet hall</h1>
-                    <p>We are planning to operate a party palace from Magh 2075, with indoor seating capacity of 500-600 pax. This will be enough to host any event with up to 1500 pax including outdoor area.</p>
+                    <p>We are planning to operate a party palace from Magh 2076, with indoor seating capacity of 500-600 pax. This will be enough to host any event with up to 1500 pax including outdoor area.</p>
                 </header>
 
             </div>
