@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="banner"><img src="{{BASE_URL}}/assets/images/srhotel-aboutus-banner.webp" alt="banner"></div>
+    <div class="banner"><img src="{{BASE_URL}}/assets/images/contact-banner.jpg" alt="banner"></div>
     <!-- Navigation -->
     @include('bookings.reservation-bar')
     {{--<div class="navigation-bar">--}}
