@@ -232,7 +232,7 @@
                                 </div>
                                 <div class="col-sm-4 col">
                                     <div class="carousel-caption">
-                                        <h2 class="yellow-text">Superiotr Deluxe Room</h2>
+                                        <h2 class="yellow-text">Superior Deluxe Room</h2>
                                         <p>We have 3 superior deluxe rooms with with double window view facing east and south with pleasant view of plain lands and 6 lane highway. These rooms come with additional amenities such.as mini bar fridge, bigger mattress etc.</p>
                                         <a href="{{route('roomdeluxe')}}" class="btn btn-default">read more</a>
                                     </div>
