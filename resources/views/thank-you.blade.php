@@ -22,7 +22,7 @@
     {{--</div>--}}
     <!-- contain main informative part of the site -->
     <main id="main">
-        <div class="container">
+        <div class="container" id="message">
             <div class="contact g-padding">
                 <div class="row">
                     <div class="col-xs-12">
@@ -32,7 +32,21 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <p></p>
+                        @if (isset($_GET['success']))
+                        <div class="alert alert-success alert-block">
+                            <button type="button" class="close" data-dismiss="alert">×</button> 
+                                <strong>Booking request received successfully! We will get back to you soon.</strong>
+                        </div>
+                        @endif
+
+                        @if (isset($_GET['failed']))
+                        <div  class="alert alert-danger alert-block">
+                            <button type="button" class="close" data-dismiss="alert">×</button> 
+                                <strong>Something went wrong. Please try again later!</strong>
+                        </div>
+                        @endif
+
+
                         <dl class="contact-info">
                             <dt><span class="icon-location"></span>Address:</dt>
                             <dd>Shankar Tower,Drivertole,Tilottama-1, Rupandehi,Nepal

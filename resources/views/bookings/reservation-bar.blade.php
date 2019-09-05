@@ -47,7 +47,8 @@
                                                     <label for="adult" class="col-sm-2 col-form-label">Adult</label>
                                                     <div class="col-sm-5 guest-modal-select">
                                                         <select name="adult" id="adult-num" required>
-                                                            <option value="1" selected>1</option>
+                                                            <option disabled selected>0</option>
+                                                            <option value="1">1</option>
                                                             <option value="2">2</option>
                                                             <option value="3">3</option>
                                                             <option value="4">4</option>

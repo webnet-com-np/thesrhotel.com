@@ -29,27 +29,35 @@ class ReservationController extends Controller
 
 
 	public function getreserve(){
-		return redirect(route('index'));
+		return redirect('thank-you');
 	}
 	//sends email from guest-info for reservation
 
 	public function mail(Request $request){
-		if (session()->has('booking')){
-			try{
-				Mail::to('thesrhotel@gmail.com')->send(new Reservation());
-				session()->pull('booking');
-				return redirect()
-					->route('bookings.getreserve')
-					->with(['message' => "Your request  has been successfully sent "]);
-			}
-			catch(\Exception $exception){
-				session()->pull('booking');
-				throw $exception;
-			}
-		}else{
-			return redirect()
-				->route('index');
+
+
+		$booking = new \stdClass;
+		$booking->arrival_date 		= 	 $request->input('arrival_date');
+		$booking->departure_date 	=	 $request->input('departure_date');
+		$booking->children 			=	 $request->input('children');
+		$booking->adult 			=	 $request->input('adult');
+		$booking->room_type 		=	 $request->input('room_type');
+		$booking->full_name 		=	 $request->input('full_name');
+		$booking->email_from 		=	 $request->input('email_from');
+		$booking->phone 			=	 $request->input('phone');
+		$booking->message 		  	=	 $request->input('message');
+		
+
+
+		try{
+			event(new \App\Events\BookingCreated($booking));
+			return redirect('thank-you?success#message')->with('success','Booking request sent successfully!');
+		}catch(\Exception $e){
+			return redirect('thank-you?failed#message')->with('error','Something went wrong. Please try again later!');
 		}
+
+
+		
 
 	}
 

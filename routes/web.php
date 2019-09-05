@@ -74,3 +74,28 @@ Route::get('/bookings','Reservation\ReservationController@getreserve')->name('bo
 Route::post('/bookings/email','Reservation\ReservationController@mail')->name('reserve_email');
 
 
+Route::get('mail/send', function () {
+	\Illuminate\Support\Facades\Mail::to(['email'=>'sohanmax02@gmail.com'])->send(new \App\Mail\TestEmail());
+
+});
+
+Route::get('/test_mail', 'TestController@testMail');
+
+Route::get('/test', function()
+{
+	$beautymail = app()->make(\Snowfire\Beautymail\Beautymail::class);
+    $beautymail->send('emails.welcome', [], function($message)
+    {
+        $message
+			->from('info@thesrhotel.com')
+			->to('sohanmax02@gmail.com', 'John Smith')
+			->subject('Welcome!');
+    });
+
+});
+
+Route::get('/thank-you', function(){
+	return view('thank-you');
+});
+
+
