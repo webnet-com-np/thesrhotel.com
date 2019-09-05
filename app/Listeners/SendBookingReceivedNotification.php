@@ -32,7 +32,7 @@ class SendBookingReceivedNotification
         $message = '';
         \Mail::send('emails.booking', $data, function ($message) use($event) {
             $message->from($event->booking->email_from, $event->booking->full_name);
-            $message->to('sohanmax02@gmail.com');
+            $message->to('thesrhotel@gmail.com');
             $message->subject('New Booking Received From Website');
         });
 
