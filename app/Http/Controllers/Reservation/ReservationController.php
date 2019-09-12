@@ -50,20 +50,7 @@ class ReservationController extends Controller
 
 
 		try{
-			$data = ['booking'=>$booking];
-	        $message = '';
-	        \Mail::send('emails.booking', $data, function ($message) use($booking) {
-	            $message->from($booking->email_from, $booking->full_name);
-	            $message->to('thesrhotel@gmail.com');
-	            $message->subject('New Booking Received From Website');
-	        });
-
-	        \Mail::send('emails.booking-received', $data, function ($message) use($booking) {
-	            $message->from('thesrhotel@gmail.com', 'The SR Hotel');
-	            $message->to($booking->email_from);
-	            $message->subject('Booking Received: The SR Hotel');
-	        });
-
+			event(new \App\Events\BookingCreated($booking));
 			return redirect('thank-you?success#message')->with('success','Booking request sent successfully!');
 		}catch(\Exception $e){
 			return redirect('thank-you?failed#message')->with('error','Something went wrong. Please try again later!');

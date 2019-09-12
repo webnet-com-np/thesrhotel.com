@@ -5,21 +5,7 @@
     <div class="banner"><img src="{{ BASE_URL }}/assets/images/contact-banner.jpg" alt="banner"></div>
     @include('bookings.reservation-bar')
     <!-- Navigation -->
-    {{--<div class="navigation-bar">--}}
-        {{--<div class="container">--}}
-            {{--<div class="row">--}}
-                {{--<div class="col-xs-7">--}}
-                    {{--<ol class="breadcrumb">--}}
-                        {{--<li><a href="{{ route('index') }}">Home</a></li>--}}
-                        {{--<li class="active">Contact</li>--}}
-                    {{--</ol>--}}
-                {{--</div>--}}
-                {{--<div class="col-xs-5">--}}
-                    {{--<a href="" class="link">contact</a>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
+
     <!-- contain main informative part of the site -->
     <main id="main">
         <div class="container">
@@ -43,8 +29,8 @@
                             <dt><span class="icon-paperplane"></span>E-MAIL:</dt>
                             <dd><a href="mailto:thesrhotel@gmail.com">thesrhotel@gmail.com</a></dd>
                         </dl>
-                    </div>
-                    <div class="col-sm-6">
+
+
                         @if(session('message'))
 
                             <div class='alert alert-success  alert-dismissible'>
@@ -70,13 +56,23 @@
                         </form>
 
                     </div>
+
+
+                    <div class="col-sm-6">
+                        <div class="fb-page" data-href="https://www.facebook.com/thesrhotel/" data-tabs="timeline, events, messages" data-height="600" data-width="450" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/thesrhotel/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/thesrhotel/">The SR Hotel</a></blockquote></div>
+
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <!-- footer of the page -->
+    
     <div class="b-container">
-		 @include ('googlemap')
-		 @include ('layouts.footer')
-    </div>
+        @include ('googlemap')
+        @include ('layouts.footer')
+    </div>  
+        
+  
+    
 @endsection

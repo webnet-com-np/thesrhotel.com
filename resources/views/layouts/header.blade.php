@@ -15,27 +15,21 @@
                             <li><a href="{{ route('index') }}">HOME</a></li>
                             <li><a href="{{ route('about') }}">ABOUT US</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle disable" data-hover="dropdown">rooms</a>
+                                <a href="#" class="dropdown-toggle disable" data-hover="dropdown">Our Services</a>
                                 <ul class="dropdown-menu">
-                                    <!-- <li><a href="{{route('roomsuite')}}">suite rooms</a></li> -->
                                     <li><a href="{{ route('roomdeluxe') }}">deluxe rooms</a></li>
                                     <li><a href="{{ route('roomstandard') }}">standard rooms</a></li>
-                                    {{--<li><a href="{{ route('roomhoneymoon') }}">Honeymoon Suite rooms</a></li>--}}
-
+                                    <li><a href="{{route('conference')}}">conference room</a></li>
+                                    <li><a href="{{route('restaurants')}}">Restaurants</a></li>
+                                    <li><a href="{{ route('nextline') }}">next in line</a></li>
                                 </ul>
                             </li>
-                            <li><a href="{{route('conference')}}">conference room</a></li>
+
+
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown">
-                                <a href="{{route('restaurants')}}" class="dropdown-toggle disable" data-hover="dropdown">Restaurants</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="{{route('onesquarelounge')}}">one square lounge</a></li>
-                                    <li><a href="{{ route('letevansa') }}">lete vansa</a></li>
-
-                                </ul>
-                            </li>
-                            <li><a href="{{ route('nextline') }}">next inline</a></li>
+                            <li><a href="{{ route('gallery') }}">Gallery</a></li>
+                            <li><a href="{{ route('whats-new') }}">Whats New</a></li>
                             <li><a href="{{ route('contact') }}">contact</a></li>
                         </ul>
                     </div>
