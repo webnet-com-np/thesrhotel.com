@@ -21,7 +21,7 @@ define("FOOTER_LOADED" , TRUE);
                         <li><a href="/conference-room/">Conference Room</a>
                         </li>
                         <li><a href="/next-in-line/">Next In Line </a></li>
-                        <li><a href="/restaurants/">Resttaurants</a></li>
+                        <li><a href="/restaurants/">Restaurants</a></li>
                         <li><a href="/contact-us/">Contact Us</a></li>
                     </ul>
 
