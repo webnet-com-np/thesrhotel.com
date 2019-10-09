@@ -11,6 +11,9 @@
 |
 */
 
+
+use Intervention\Image\Facades\Image;
+
 Route::get('/', function () {
     return view('index', [
 	    'metas' => config( "meta_tags.home" ) ,
@@ -64,7 +67,29 @@ Route::get('rooms/honeymoon-suite-rooms/', function () {
 })->name('roomhoneymoon');
 
 Route::get('gallery', function () {
-    return view('gallery');
+//    $images = array(
+//        array(
+//            'thumb' => 'assets/images/2001-300X200.jpg',
+//            'image' =>  'assets/images/2001.jpg',
+//        ),
+//        array(
+//            'thumb' => 'assets/images/2002-300X200.jpg',
+//            'image' =>  'assets/images/2002.jpg',
+//        ),
+//        array(
+//            'thumb' => 'assets/images/2003-300X200.jpg',
+//            'image' =>  'assets/images/2003.jpg',
+//        )
+//    );
+
+////    foreach ($images as $image):
+//        $image['thumb'] = Image::make('assets/images/delox-room.jpg')->resize(300, 200);
+//        $image['thumb']->save('assets/images/delox-room-300X200.jpg');
+//
+////    endforeach;
+//
+    $images = \App\Image::all();
+    return view('gallery', compact('images'));
 })->name('gallery');
 
 Route::get('whats-new', function () {

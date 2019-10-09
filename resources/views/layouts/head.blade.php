@@ -44,6 +44,7 @@
     <link rel="icon" type="image/gif" href="{{ BASE_URL }}/assets/images/title-logo.png" />
     {{--<title>The SR Hotel ,luxury Hotel in Butwal- Bhairahawa, Nepal</title>--}}
 
+    <link rel="stylesheet" href="{{ BASE_URL }}/assets/css/lightgallery.css">
 
-    
+
 </head>

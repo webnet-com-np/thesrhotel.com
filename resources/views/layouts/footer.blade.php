@@ -16,14 +16,13 @@ define("FOOTER_LOADED" , TRUE);
                 <!-- footer navigation -->
                 <nav class="f-nav col-md-4 col-sm-4 col-xs-6">
                     <ul class="nav navbar-left">
-                        <li><a href="/">HOME</a></li>
-                        <li><a href="/about-us/">ABOUT US</a></li>
-                        <li><a href="/">rooms</a></li>
-                        <li><a href="/conference-room/">conference room</a>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about-us/">Abou Us</a></li>
+                        <li><a href="/conference-room/">Conference Room</a>
                         </li>
-                        <li><a href="/next-inline/">next inline</a></li>
-                        <li><a href="/restaurant/">restaurant</a></li>
-                        <li><a href="/contact/">contact</a></li>
+                        <li><a href="/next-in-line/">Next In Line </a></li>
+                        <li><a href="/restaurants/">Resttaurants</a></li>
+                        <li><a href="/contact-us/">Contact Us</a></li>
                     </ul>
 
                 </nav>
@@ -49,19 +48,12 @@ define("FOOTER_LOADED" , TRUE);
                     <button class="btn btn-default">Subscribe</button>
                     <div class="social-media">
                         <ul class="list-inline social-networks">
-                            <li><a href="#"><span class="icon-facebook"></span></a>
+                            <li><a href="https://www.facebook.com/thesrhotel/" target="_blank"><span class="icon-facebook"></span></a>
                             </li>
-                            <li>
-                                <a href="#"><span class="icon-twitter"></span></a>
+
+                            <li><a href="https://www.instagram.com/thesrhotel/" target="_blank"><span class="icon-instagram"></span></a>
                             </li>
-                            <li>
-                                <a href="#"><span class="icon-youtube"></span></a>
-                            </li>
-                            <li><a href="#"><span class="icon-instagram"></span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span class="icon-google"></span></a>
-                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -76,7 +68,7 @@ define("FOOTER_LOADED" , TRUE);
             <div class="col-sm-12">
                 <p>&copy;
                     <a href="#" class="">The SR hotel</a>. All rights reserved. Designed by
-                    <a href="https://webnet.com.np" class="webnet-color">Web Networks</a>
+                    <a href="https://webnet.com.np" target="_blank" class="webnet-color">Web Networks</a>
                 </p>
             </div>
 

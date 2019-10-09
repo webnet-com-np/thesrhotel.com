@@ -1,10 +1,10 @@
 /*
-Theme Name: Range Relaxe
-Author: Galliasoft
+Theme Name: The SR Hotel
+Author: Web Networks
 Author URI:
 Version: 1
-Text Domain: Range Relaxe
-Theme URI: www.galliasoft.com/rangerelaxe-html
+Text Domain: Web Networks
+Theme URI: www.webnet.com.np
 */
 
 .clearfix:after,
@@ -24,10 +24,10 @@ Theme URI: www.galliasoft.com/rangerelaxe-html
 .ellipsis {
     white-space: nowrap;
     /* 1 */
-    
+
     text-overflow: ellipsis;
     /* 2 */
-    
+
     overflow: hidden;
 }
 /*  --------------------------------------
@@ -1947,7 +1947,7 @@ h1:after {
     padding: 60px 15px 60px 105px;
     border-color: rgba(255, 255, 255, 0.05);
     font: 400 16px/21px "Source Sans Pro", Arial, helvetica, sans-serif;
-	
+
 }
 @media (max-width: 991px) {
     .services-block .block {
@@ -3859,7 +3859,7 @@ h1:after {
 #flex-slider .social-networks {
     position: absolute;
     /*bottom: 30px;*/
-    
+
     top: 62%;
     left: 0;
     right: 0;
@@ -4592,7 +4592,7 @@ form input:disabled ~ .fake-label {
     text-decoration: none;
     background: transparent url("blank.gif");
     /* helps IE */
-    
+
     -webkit-tap-highlight-color: transparent;
     z-index: 8040;
 }
@@ -4700,7 +4700,7 @@ form input:disabled ~ .fake-label {
     padding: 2px 20px;
     background: transparent;
     /* Fallback for web browsers that doesn't support RGBa */
-    
+
     background: rgba(0, 0, 0, 0.8);
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -4790,3 +4790,5 @@ only screen and (min-device-pixel-ratio: 1.5) {
         pointer-events: none;
     }
 }
+
+

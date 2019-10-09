@@ -23,6 +23,17 @@
 {{--<script type="text/javascript" src="{{BASE_URL}}/assets/js/myscript.js"></script>--}}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script src="{{BASE_URL}}/assets/js/lightgallery.min.js"></script>
+
+<!-- lightgallery plugins -->
+<script src="{{BASE_URL}}/assets/js/lg-thumbnail.min.js"></script>
+<script src="{{BASE_URL}}/assets/js/lg-fullscreen.min.js"></script>
+
+<script>
+    lightGallery(document.getElementById('lightgallery'));
+</script>
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128288982-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];

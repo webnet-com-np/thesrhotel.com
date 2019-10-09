@@ -13,7 +13,7 @@
                     </ol>
                 </div>
                 <div class="col-xs-5">
-                    <a href="tel:071590502" class="link">book a table</a>
+                    <a href="tel:071590502" class="link btn-link" >Book a Table</a>
                 </div>
             </div>
         </div>
