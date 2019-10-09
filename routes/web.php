@@ -67,27 +67,44 @@ Route::get('rooms/honeymoon-suite-rooms/', function () {
 })->name('roomhoneymoon');
 
 Route::get('gallery', function () {
-//    $images = array(
-//        array(
-//            'thumb' => 'assets/images/2001-300X200.jpg',
-//            'image' =>  'assets/images/2001.jpg',
-//        ),
-//        array(
-//            'thumb' => 'assets/images/2002-300X200.jpg',
-//            'image' =>  'assets/images/2002.jpg',
-//        ),
-//        array(
-//            'thumb' => 'assets/images/2003-300X200.jpg',
-//            'image' =>  'assets/images/2003.jpg',
-//        )
-//    );
 
-////    foreach ($images as $image):
-//        $image['thumb'] = Image::make('assets/images/delox-room.jpg')->resize(300, 200);
-//        $image['thumb']->save('assets/images/delox-room-300X200.jpg');
+//    $path = 'assets/images/delux-room';
+//    if ($handle = opendir($path)) {
 //
-////    endforeach;
+//        while (false !== ($entry = readdir($handle))) {
 //
+//            if ($entry != "." && $entry != "..") {
+//
+//                $images[] =  $entry;
+//
+//            }
+//        }
+//
+//        closedir($handle);
+//    }
+//
+//
+//
+//    foreach ($images as $image):
+//        $file_parts = pathinfo($path.'/'.$image);
+//
+//        switch($file_parts['extension']) {
+//            case "jpg":
+//
+//                $file = basename($image, ".jpg");
+//                $thumb = Image::make($path . '/' . $image)->resize(300, 200);
+//                $thumb->save($path . '/' . $file . '-300X200.jpg');
+//                $i = new \App\Image;
+//                $i->full = $path . '/' . $image;
+//                $i->thumb = $path . '/' . $file . '-300X200.jpg';
+//                $i->gallery_id = 1;
+//                $i->raw = ' ';
+//                $i->save();
+//                break;
+//        }
+//
+//    endforeach;
+
     $images = \App\Image::all();
     return view('gallery', compact('images'));
 })->name('gallery');
