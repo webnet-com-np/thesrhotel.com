@@ -8,14 +8,29 @@ on:
 
 jobs:
   deploy:
-    if: github.ref == 'refs/heads/master'
-    runs-on: [ubuntu-latest]
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Push to server
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SERVER_IP }}
-          username: ${{ secrets.SERVER_USERNAME }}
-          password: ${{ secrets.SERVER_PASSWORD }}
-          script: cd ${{ secrets.PROJECT_PATH }} && git pull
+    - uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.PUSH_TOKEN }}
+    - name: Set up Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - run: npm install
+    - run: npm run production
+    - name: Commit built assets
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git checkout -B deploy
+        git add -f public/
+        git commit -m "Build front-end assets"
+        git push -f origin deploy
+    - name: Deploy to production
+      uses: appleboy/ssh-action@master
+      with:
+        username: ${{ secrets.SERVER_USERNAME }}
+        host: ${{ secrets.SERVER_HOSTNAME }}
+        password: ${{ secrets.SERVER_PASSWORD }}
+        script: 'cd /var/www/html && ./server_deploy.sh'
