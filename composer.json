@@ -8,17 +8,20 @@
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
         "intervention/image": "^2.5",
-        "laravel/framework": "5.7.*",
-        "laravel/tinker": "^1.0",
-        "snowfire/beautymail": "dev-master"
+        "laravel/framework": "^8.0",
+        "laravel/tinker": "^2.0",
+        "laravel/ui": "^3.0",
+        "snowfire/beautymail": "dev-master",
+        "facade/ignition": "^2.3.6",
+        "guzzlehttp/guzzle": "^7.0.1"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
-        "nunomaduro/collision": "^2.0",
-        "phpunit/phpunit": "^7.0"
+        "nunomaduro/collision": "^5.0",
+        "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "classmap": [
